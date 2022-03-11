@@ -1,0 +1,73 @@
+#!/bin/bash
+#
+# Snowflake build script
+#
+# Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# ----------------------------------------------------------------------------- #
+
+set -e
+
+# ----------------------------------------------------------------------------- #
+
+node() {
+    cd src/njs
+
+    npm install
+    npm run build
+
+    npx standard --fix ../jsx/*
+
+    cd ../..
+}
+
+less() {
+    local src_name
+    local dest_path
+
+    echo "Less preprocessor ..."
+
+    for f in "src/static/css/"*.css; do
+        [ -f "${f}" ] || break
+
+        rm "${f}"
+    done
+
+    for src_path in "src/less/"*.less; do
+        [ -f "${src_path}" ] || break
+
+        src_name="$(basename "${src_path}")"
+        dest_path="src/static/css/${src_name%.*}.css"
+
+        echo "${src_path} -> ${dest_path}"
+
+        src/njs/node_modules/less/bin/./lessc "${src_path}" "${dest_path}"
+    done
+}
+
+nim() {
+    nimble build
+}
+
+main() {
+    node
+    less
+    nim
+}
+
+# ----------------------------------------------------------------------------- #
+
+main "$@"

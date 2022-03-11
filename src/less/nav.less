@@ -1,0 +1,179 @@
+/* Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+@import "base";
+
+/* --------------------------------------------------------------------------- */
+
+#navbar-main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(25, 25, 25, 0.15);
+}
+
+#navbar-logo {
+    background-image: url("/images/nwn-logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-right: 0.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+#navbar-logo-text {
+    font-family: "Neverwinter";
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    a {
+        &.navbar-item {
+            &:hover {
+                background-color: @lightAccent;
+                color: @background;
+
+                &:focus {
+                    color: @background;
+
+                    #navbar-logo {
+                        background-image: url("/images/nwn-logo-inverse.png");
+                    }
+                }
+
+                #navbar-logo {
+                    background-image: url("/images/nwn-logo-inverse.png");
+                }
+            }
+
+            &:focus {
+                color: @foreground;
+
+                #navbar-logo {
+                    background-image: url("/images/nwn-logo.png");
+                }
+            }
+        }
+    }
+}
+
+.navbar {
+    background-color: @extraDarkAccent;
+    color: @foreground;
+}
+
+.navbar-item,
+.navbar-link {
+    color: @foreground;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+    background-color: @lightAccent;
+    color: @background;
+}
+
+.navbar-item.has-dropdown.is-active
+.navbar-link,
+.navbar-item.has-dropdown:focus .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link {
+    background-color: @lightAccent;
+    color: @background;
+}
+
+.navbar-dropdown {
+    border-top: none;
+    border-bottom-right-radius: 0;
+    background-color: @lightAccent;
+    color: @background;
+    font-size: 1rem;
+
+    .navbar-item {
+        color: @background;
+    }
+
+    a {
+        &.navbar-item {
+            &:focus,
+            &:hover {
+                background-color: @offLightAccent;
+                color: inherit;
+            }
+        }
+    }
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: @foreground;
+}
+
+.navbar-divider {
+    background-color: @background;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.navbar-burger {
+    color: @foreground;
+
+    &:hover,
+    &.is-active {
+        color: @background;
+        background-color: @lightAccent;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .navbar-menu {
+        background-color: @lightAccent;
+        color: @background;
+
+        .navbar-item,
+        .navbar-link {
+            color: @background;
+
+            &:hover {
+                background-color: @offLightAccent;
+            }
+        }
+    }
+
+    .navbar-item {
+        &.has-dropdown {
+            &> .navbar-link {
+                display: none;
+            }
+
+            .navbar-dropdown {
+                padding: 0;
+
+                a {
+                    padding: 0.5rem 0.75rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.vagrant/
+snowflake
+src/njs/node_modules/
+src/njs/package-lock.json
+src/static/css/*
+src/static/js/character.js
+src/static/js/main.js
+TODO.md

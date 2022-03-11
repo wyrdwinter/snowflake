@@ -1,0 +1,574 @@
+{{> start-character }}
+    {{> nav }}
+    <div id="character-container" class="container">
+      <section id="title">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <h1 id="name">{{ character.first-name }} {{ character.last-name }}</h1>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              {{{ tags }}}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="core">
+        <div id="portrait" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Portrait
+            </p>
+          </header>
+          <div class="card-image">
+            <figure class="image">
+              <div id="portrait-container">
+                {{ #portrait }}<img src="data:image/png;base64,{{ portrait }}">{{ /portrait }}
+                {{ ^portrait }}<img src="{{ portrait-default }}">{{ /portrait }}
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div id="overview" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Overview
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="block">
+              <p><strong>Features</strong></p>
+              <ul>
+                <li>Race: {{ character.race.name }}</li>
+                {{ #character.subrace }}<li>Subrace: {{ character.subrace }}</li>{{ /character.subrace }}
+                <li>Sex: {{ character.sex.name }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Classes</strong></p>
+              <ul>
+                <li><img class="class-icon" src="/images/icons/{{ character.classes.first.tooltip-icon }}.jpg"><span class="class-name">{{ character.classes.first.name }}: {{ character.classes.first.levels }}</span></li>
+                {{ #character.classes.second }}
+                <li><img class="class-icon" src="/images/icons/{{ character.classes.second.tooltip-icon }}.jpg"><span class="class-name">{{ character.classes.second.name }}: {{ character.classes.second.levels }}</span></li>
+                {{ /character.classes.second }}
+                {{ #character.classes.third }}
+                <li><img class="class-icon" src="/images/icons/{{ character.classes.third.tooltip-icon }}.jpg"><span class="class-name">{{ character.classes.third.name }}: {{ character.classes.third.levels }}</span></li>
+                {{ /character.classes.third }}
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Alignment</strong></p>
+              <ul>
+                <li>{{ character.alignment.name }} {{ #character.alignment.title }}({{ character.alignment.title }}){{ /character.alignment.title }}</li>
+                <li>Chaos - Law: {{ character.alignment.position-law-chaos }}%</li>
+                <li>Evil - Good: {{ character.alignment.position-good-evil }}%</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Experience</strong></p>
+              <ul>
+                <li>Current: {{ character.experience.current }}</li>
+                <li>Next Level: {{ #character.experience.max-level }}Maximum Level{{ /character.experience.max-level }}{{ ^character.experience.max-level }}{{ character.experience.next-level }}{{ /character.experience.max-level }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="abilities" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Abilities
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="b-table">
+              <div class="table-wrapper has-mobile-cards">
+                <table class="table is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Ability</th>
+                      <th>Base</th>
+                      <th>Geared</th>
+                      <th>Modifier</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{ #character.abilities.strength }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.strength }}
+                    {{ #character.abilities.dexterity }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.dexterity }}
+                    {{ #character.abilities.constitution }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.constitution }}
+                    {{ #character.abilities.intelligence }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.intelligence }}
+                    {{ #character.abilities.wisdom }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.wisdom }}
+                    {{ #character.abilities.charisma }}
+                    <tr>
+                      <td data-label="Ability">{{ name }}</td>
+                      <td data-label="Base">{{ base }}</td>
+                      <td data-label="Geared" {{ #geared-increase-colored }}class="ability-score-increase-color"{{ /geared-increase-colored }}{{ #geared-decrease-colored }}class="ability-score-decrease-color"{{ /geared-decrease-colored }}>{{ geared }}</td>
+                      <td data-label="Modifier" {{ #modifier-increase-colored }}class="ability-score-increase-color"{{ /modifier-increase-colored }}{{ #modifier-decrease-colored }}class="ability-score-decrease-color"{{ /modifier-decrease-colored }}>{{ modifier }}</td>
+                    </tr>
+                    {{ /character.abilities.charisma }}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="statistics" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Statistics
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="block">
+              <p><strong>Defense</strong></p>
+              <ul>
+                <li>Hit Points: {{ character.hit-points.total.current }} / {{ character.hit-points.total.maximum }}</li>
+                <li>Armor Class: {{ character.armor.armor-class.total }}</li>
+                <li>Spell Resistance: {{ character.spell-resistance }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Saving Throws</strong></p>
+              <ul>
+                <li>Fortitude: {{ character.saving-throws.fortitude.total }}</li>
+                <li>Reflex: {{ character.saving-throws.reflex.total }}</li>
+                <li>Will: {{ character.saving-throws.will.total }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Offense</strong></p>
+              <ul>
+                <li>Base Attack Bonus: {{ character.attacks.base-attack-bonus }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Armor</strong></p>
+              <ul>
+                <li>Arcane Spell Failure: {{ character.armor.arcane-spell-failure }}%</li>
+                {{ #character.armor.check-penalty }}
+                <li>Armor Check Penalty: -{{ character.armor.check-penalty }}</li>
+                {{ /character.armor.check-penalty }}
+                {{ ^character.armor.check-penalty }}
+                <li>Armor Check Penalty: 0</li>
+                {{ /character.armor.check-penalty }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="weapons">
+        {{ #character.unarmed-strike }}
+        <div id="unarmed-stroke" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Unarmed Strike
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="block">
+              <p><strong>Statistics</strong></p>
+              <ul>
+                <li>Attack Bonus: {{ #character.attacks.unarmed-attack-bonuses }}+{{ . }} {{ /character.attacks.unarmed-attack-bonuses }}{{ ^character.attacks.unarmed-attack-bonuses }}+0{{ /character.attacks.unarmed-attack-bonuses }}</li>
+                <li>Damage: {{ character.unarmed-strike.damage-summary }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Properties</strong></p>
+              <ul>
+                {{ #character.unarmed-strike.gloves-properties }}
+                <li>{{ name }}{{ #subtype-name }} ({{ subtype-name }}){{ /subtype-name }}{{ #cost-value }}: {{ cost-value }}{{ /cost-value }}</li>
+                {{ /character.unarmed-strike.gloves-properties }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ /character.unarmed-strike }}
+        {{ #character.main-weapon }}
+        <div id="main-weapon" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Main Weapon - {{ character.main-weapon.name }}
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="block">
+              <p><strong>Base Item</strong></p>
+              <ul>
+                <li>Type: {{ character.main-weapon.base-item-name }}</li>
+                <li>Size: {{ character.main-weapon.size }}</li>
+                <li>Damage: {{ character.main-weapon.damage-dice }}d{{ character.main-weapon.damage-die }}</li>
+                <li>Critical Range: {{ character.main-weapon.critical-range.lower }}-{{ character.main-weapon.critical-range.upper }}</li>
+                <li>Critical Multiplier: x{{ character.main-weapon.critical-multiplier }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Statistics</strong></p>
+              <ul>
+                <li>Attack Bonus: {{ #character.attacks.main-attack-bonuses }}+{{ . }} {{ /character.attacks.main-attack-bonuses }}{{ ^character.attacks.main-attack-bonuses }}+0{{ /character.attacks.main-attack-bonuses }}</li>
+                <li>Damage: {{ character.main-weapon.damage-summary }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Properties</strong></p>
+              <ul>
+                {{ #character.main-weapon.properties }}
+                <li>{{ name }}{{ #subtype-name }} ({{ subtype-name }}){{ /subtype-name }}{{ #cost-value }}: {{ cost-value }}{{ /cost-value }}</li>
+                {{ /character.main-weapon.properties }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ /character.main-weapon }}
+        {{ #character.offhand-weapon }}
+        <div id="offhand-weapon" class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Offhand Weapon - {{ character.offhand-weapon.name }}
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="block">
+              <p><strong>Base Item</strong></p>
+              <ul>
+                <li>Type: {{ character.offhand-weapon.base-item-name }}</li>
+                <li>Size: {{ character.offhand-weapon.size }}</li>
+                <li>Damage: {{ character.offhand-weapon.damage-dice }}d{{ character.offhand-weapon.damage-die }}</li>
+                <li>Critical Range: {{ character.offhand-weapon.critical-range.lower }}-{{ character.offhand-weapon.critical-range.upper }}</li>
+                <li>Critical Multiplier: x{{ character.offhand-weapon.critical-multiplier }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Statistics</strong></p>
+              <ul>
+                <li>Attack Bonus: {{ #character.attacks.offhand-attack-bonuses }}+{{ . }} {{ /character.attacks.offhand-attack-bonuses }}{{ ^character.attacks.offhand-attack-bonuses }}+0{{ /character.attacks.offhand-attack-bonuses }}</li>
+                <li>Damage: {{ character.offhand-weapon.damage-summary }}</li>
+              </ul>
+            </div>
+            <div class="block">
+              <p><strong>Properties</strong></p>
+              <ul>
+                {{ #character.offhand-weapon.properties }}
+                <li>{{ name }}{{ #subtype-name }} ({{ subtype-name }}){{ /subtype-name }}{{ #cost-value }}: {{ cost-value }}{{ /cost-value }}</li>
+                {{ /character.offhand-weapon.properties }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ /character.offhand-weapon }}
+      </section>
+      <section id="spellbooks">
+        {{ #character.spellbooks }}
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              {{ class }} Spells
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="b-table">
+              <div class="table-wrapper has-mobile-cards">
+                {{ #spontaneous }}
+                <table class="table is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Level</th>
+                      <th>Spell</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{ #spells }}
+                    {{ #0 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">0</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /0 }}
+                    {{ #1 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">1</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /1 }}
+                    {{ #2 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">2</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /2 }}
+                    {{ #3 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">3</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /3 }}
+                    {{ #4 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">4</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /4 }}
+                    {{ #5 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">5</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /5 }}
+                    {{ #6 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">6</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /6 }}
+                    {{ #7 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">7</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /7 }}
+                    {{ #8 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">8</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /8 }}
+                    {{ #9 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">9</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                    </tr>
+                    {{ /9 }}
+                    {{ /spells }}
+                  </tbody>
+                </table>
+                {{ /spontaneous }}
+                {{ ^spontaneous }}
+                <table class="table is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Level</th>
+                      <th>Spell</th>
+                      <th>Metamagic</th>
+                      <th>Ready</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{ #spells }}
+                    {{ #0 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">0</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /0 }}
+                    {{ #1 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">1</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /1 }}
+                    {{ #2 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">2</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /2 }}
+                    {{ #3 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">3</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /3 }}
+                    {{ #4 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">4</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /4 }}
+                    {{ #5 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">5</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /5 }}
+                    {{ #6 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">6</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /6 }}
+                    {{ #7 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">7</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /7 }}
+                    {{ #8 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">8</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /8 }}
+                    {{ #9 }}
+                    <tr data-tip="<div class='tooltip-header'><img class='spell-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='spell-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                      <td data-label="Level" class="spell-field">9</td>
+                      <td data-label="Spell"><img class="spell-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="spell-name">{{ name }}</span></td>
+                      <td data-label="Metamagic" class="spell-field">{{ metamagic.name }}</td>
+                      <td data-label="Ready" class="spell-field">{{ #ready }}Yes{{ /ready }}{{ ^ready }}No{{ /ready }}</td>
+                    </tr>
+                    {{ /9 }}
+                    {{ /spells }}
+                  </tbody>
+                </table>
+                {{ /spontaneous }}
+              </div>
+              </div>
+          </div>
+        </div>
+        {{ /character.spellbooks }}
+      </section>
+      <section id="skills-feats">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Skills
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="table is-fullwidth">
+              <tbody>
+                {{ #character.skills }}
+                <tr data-tip="<div class='tooltip-header'><img class='skill-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='skill-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                  <td><img class="skill-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="skill-name">{{ name }}</span></td>
+                  <td class="skill-field">{{ rank }}</td>
+                </tr>
+                {{ /character.skills }}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Feats
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="table is-fullwidth">
+              <tbody>
+                {{ #character.feats }}
+                <tr data-tip="<div class='tooltip-header'><img class='feat-header-icon' src='/images/icons/{{ tooltip-icon }}.jpg'><span class='feat-header-name'>{{ tooltip-name }}</span></div><div class='tooltip-body'>{{ tooltip-description }}</div>">
+                  <td><img class="feat-icon" src="/images/icons/{{ tooltip-icon }}.jpg"><span class="feat-name">{{ name }}</span></td>
+                </tr>
+                {{ /character.feats }}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="levels">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Level History
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="b-table">
+              <div class="table-wrapper has-mobile-cards">
+                <table class="table is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Level</th>
+                      <th>Class</th>
+                      <th>Hit Die</th>
+                      <th>Ability Increase</th>
+                      <th>Available Skill Points</th>
+                      <th>Skill Increases</th>
+                      <th>Feats</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{ #character.level-history }}
+                    <tr>
+                      <td data-label="Level">{{ index }}</td>
+                      <td data-label="Class">{{ class.name }}</td>
+                      <td data-label="Hit Die">d{{ hit-die }}</td>
+                      <td data-label="Ability Increase">{{ ability-increase.name }}</td>
+                      <td data-label="Available Skill Points">{{ available-skill-points }}</td>
+                      <td data-label="Skill Increases">
+                        <ul>
+                          {{ #skill-increases }}<li>{{ name }} +{{ rank }}</li>{{ /skill-increases }}
+                        </ul>
+                      </td>
+                      <td data-label="Feats">
+                        <ul>
+                          {{ #feats }}<li>{{ name }}</li>{{ /feats }}
+                        </ul>
+                      </td>
+                    </tr>
+                    {{ /character.level-history }}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    {{> footer }}
+    <div id="main-tooltip"></div>
+    <script src="/js/character.js"></script>
+{{> end }}

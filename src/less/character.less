@@ -1,0 +1,211 @@
+/* Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+@import "base";
+@import "nav";
+
+/* --------------------------------------------------------------------------- */
+
+.__react_component_tooltip {
+    opacity: 1.0 !important;
+    font-size: 1rem !important;
+    padding: 0 !important;
+    border-radius: 0.5rem !important;
+    border-width: 0px !important;
+    box-shadow: @boxShadow !important;
+
+    &.place-bottom {
+        &::after {
+            border-bottom-color: @darkAccent !important;
+        }
+    }
+}
+
+.ability-score-increase-color {
+    color: @altAccent;
+}
+
+.ability-score-decrease-color {
+    color: red;
+}
+
+.tooltip-header {
+    background-color: @darkAccent;
+    color: @background;
+    max-width: 30em;
+    font-weight: bold;
+    white-space: pre-wrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top-left-radius: calc(0.5rem - 3px);
+    border-top-right-radius: calc(0.5rem - 3px);
+}
+
+.tooltip-body {
+    max-width: 30em;
+    white-space: pre-wrap;
+    padding: 1rem;
+}
+
+.class-icon,
+.spell-icon,
+.skill-icon,
+.feat-icon {
+    vertical-align: middle;
+    border: 2px solid @darkAccent;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-right: 0.75rem;
+}
+
+.class-name,
+.spell-name,
+.skill-name,
+.feat-name {
+    vertical-align: middle;
+}
+
+.table {
+    td {
+        &.spell-field,
+        &.skill-field,
+        &.feat-field {
+            vertical-align: middle;
+        }
+    }
+}
+
+.spell-header-icon,
+.skill-header-icon,
+.feat-header-icon {
+    vertical-align: middle;
+}
+
+.spell-header-name,
+.skill-header-name,
+.feat-header-name {
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+#character-container {
+    padding-top: 1.33rem;
+    padding-bottom: 6rem;
+
+    .card .block:not(:last-child),
+    .box:not(:last-child),
+    .breadcrumb:not(:last-child),
+    .content:not(:last-child),
+    .level:not(:last-child),
+    .message:not(:last-child),
+    .notification:not(:last-child),
+    .pagination:not(:last-child),
+    .progress:not(:last-child),
+    .subtitle:not(:last-child),
+    .table-container:not(:last-child),
+    .table:not(:last-child),
+    .tabs:not(:last-child),
+    .title:not(:last-child){
+        border-bottom: 2px solid @offBackground;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+}
+
+#title {
+    .level {
+        border-bottom: 2px solid @offBackground;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    #name {
+        color: @lightAccent;
+        font-size: 2rem;
+    }
+}
+
+#core,
+#weapons,
+#spellbooks,
+#skills-feats,
+#levels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portrait {
+    #portrait-container {
+        width: 256px;
+        height: 400px;
+        overflow-y: hidden;
+        border-radius: 0.25rem;
+        margin: 1.5rem auto;
+    }
+
+    img {
+        width: 256px;
+        height: 512px;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width:1023px) {
+    #character-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .__react_component_tooltip {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #character-container {
+        #title {
+            .level-right {
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+
+                .tags {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .b-table {
+        .table-wrapper {
+            &.has-mobile-cards {
+                tr {
+                    td {
+                        &:first-child {
+                            background-color: @darkAccent;
+                            color: @background;
+                        }
+
+                        .spell-icon {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

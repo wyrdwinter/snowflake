@@ -1,0 +1,89 @@
+{{> start-main }}
+{{> nav-main }}
+<section id="main-hero" class="hero is-info">
+  <div class="hero-body container">
+    <div id="hero-text">
+      <div id="hero-titles">
+        <h1 class="title">
+          Snowflake
+        </h1>
+        <p class="subtitle">
+          Pastebin, but for Neverwinter Nights characters.
+        </p>
+      </div>
+      <div id="hero-dropzone-wrapper">
+        <p id="hero-how-question">How do I use this?</p>
+        <div id="hero-howto">
+          <ol>
+            <li>Drop an NWN character file (.bic) on the upload box below, or click the upload box to select one.</li>
+            <li>You will be prompted to choose some options. Do so, then continue.</li>
+            <li>You will be redirected to a unique link featuring an overview of your character's statistics, build, level history, and more.</li>
+            <li>Share this link with friends, or bookmark it for yourself as a reference.</li>
+          </ol>
+        </div>
+        <div id="main-modal"></div>
+        <div id="styled-modal"></div>
+        <div id="dropzone-error"></div>
+        <div id="main-dropzone"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a name="recent-characters"></a>
+<section>
+  <div id="main-page-container" class="container">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">
+          Recent Characters
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="b-table">
+          <div class="table-wrapper has-mobile-cards">
+            <table class="table is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Server</th>
+                  <th>Level</th>
+                  <th>Classes</th>
+                  <th>Tags</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ #character-overviews }}
+                <tr>
+                  <td data-label="Name"><a href="/c/{{ hash }}">{{ name }}</a></td>
+                  <td data-label="Server">{{ server }}</td>
+                  <td data-label="Level">{{ level }}</td>
+                  <td data-label="Classes">
+                    <div>
+                      {{ #class-first-name }}
+                      <span class="char-class">{{ class-first-name }} {{ class-first-levels }}</span>
+                      {{ /class-first-name }}
+                      {{ #class-second-name }}
+                      <span class="char-class-spacer">&nbsp;&nbsp;&nbsp;&#x2022;&nbsp;&nbsp;&nbsp;</span>
+                      <span class="char-class">{{ class-second-name }} {{ class-second-levels }}</span>
+                      {{ /class-second-name }}
+                      {{ #class-third-name }}
+                      <span class="char-class-spacer">&nbsp;&nbsp;&nbsp;&#x2022;&nbsp;&nbsp;&nbsp;</span>
+                      <span class="char-class">{{ class-third-name }} {{ class-third-levels }}</span>
+                      {{ /class-third-name }}
+                    </div>
+                  </td>
+                  <td data-label="Tags">{{{ tags }}}</td>
+                </tr>
+                {{ /character-overviews }}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer }}
+<div id="modal-root"></div>
+<script src="/js/main.js"></script>
+{{> end }}

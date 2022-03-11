@@ -1,0 +1,48 @@
+/* Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+@import "base";
+@import "nav";
+
+/* --------------------------------------------------------------------------- */
+
+#error {
+    min-height: 100vh;
+    padding: 6rem;
+
+    div {
+        font-size: 2rem;
+        max-width: 40rem;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+    #error {
+        div {
+            font-size: 1.5rem;
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+}

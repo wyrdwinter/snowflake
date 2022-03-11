@@ -1,0 +1,29 @@
+{
+    "name": "snowflake",
+    "version": "0.1.0",
+    "description": "A simple web application that parses and displays Neverwinter Nights character files in a human-readable format.",
+    "browser": "../static/js/main.jsx",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "author": "Wyrd",
+    "license": "AGPL-3.0-or-later",
+    "devDependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "babel-loader": "^8.2.3",
+        "form-data": "^4.0.0",
+        "less": "^4.1.2",
+        "standard": "^16.0.4",
+        "webpack": "^5.68.0",
+        "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+        "axios": "^0.25.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-dropzone": "^11.5.3",
+        "react-tooltip": "^4.2.21",
+        "styled-react-modal": "^3.0.0"
+    }
+}

@@ -1,0 +1,1053 @@
+2DA V2.0
+
+          Label                                     ScriptingName                          BMPResRef           TileSet     StrRef     
+0         "Random"                                  ****                                   ****                ****        63402      
+1         "UserDefined"                             ****                                   ****                ****        ****       
+2         "City01"                                  AREA_TRANSITION_CITY_01                ls_tcn_01           tcn01       68545      
+3         "City02"                                  AREA_TRANSITION_CITY_02                ls_tcn_02           tcn01       68546      
+4         "City03"                                  AREA_TRANSITION_CITY_03                ls_tcn_03           tcn01       68547      
+5         "City04"                                  AREA_TRANSITION_CITY_04                ls_tcn_04           tcn01       68548      
+6         "City05"                                  AREA_TRANSITION_CITY_05                ls_tcn_05           tcn01       68549      
+7         "Crypt01"                                 AREA_TRANSITION_CRYPT_01               ls_tdc_01           tdc01       68551      
+8         "Crypt02"                                 AREA_TRANSITION_CRYPT_02               ls_tdc_02           tdc01       68552      
+9         "Crypt03"                                 AREA_TRANSITION_CRYPT_03               ls_tdc_03           tdc01       68553      
+10        "Crypt04"                                 AREA_TRANSITION_CRYPT_04               ls_tdc_04           tdc01       68554      
+11        "Crypt05"                                 AREA_TRANSITION_CRYPT_05               ls_tdc_05           tdc01       68550      
+12        "Dungeon01"                               AREA_TRANSITION_DUNGEON_01             ls_tde_01           tde01       68555      
+13        "Dungeon02"                               AREA_TRANSITION_DUNGEON_02             ls_tde_02           tde01       68556      
+14        "Dungeon03"                               AREA_TRANSITION_DUNGEON_03             ls_tde_03           tde01       68557      
+15        "Dungeon04"                               AREA_TRANSITION_DUNGEON_04             ls_tde_04           tde01       68558      
+16        "Dungeon05"                               AREA_TRANSITION_DUNGEON_05             ls_tde_05           tde01       68559      
+17        "Dungeon06"                               AREA_TRANSITION_DUNGEON_06             ls_tde_06           tde01       68560      
+18        "Dungeon07"                               AREA_TRANSITION_DUNGEON_07             ls_tde_07           tde01       68561      
+19        "Dungeon08"                               AREA_TRANSITION_DUNGEON_08             ls_tde_08           tde01       68562      
+20        "Mines01"                                 AREA_TRANSITION_MINES_01               ls_tdm_01           tdm01       68563      
+21        "Mines02"                                 AREA_TRANSITION_MINES_02               ls_tdm_02           tdm01       68564      
+22        "Mines03"                                 AREA_TRANSITION_MINES_03               ls_tdm_03           tdm01       68565      
+23        "Mines04"                                 AREA_TRANSITION_MINES_04               ls_tdm_04           tdm01       68566      
+24        "Mines05"                                 AREA_TRANSITION_MINES_05               ls_tdm_05           tdm01       68567      
+25        "Mines06"                                 AREA_TRANSITION_MINES_06               ls_tdm_06           tdm01       68568      
+26        "Mines07"                                 AREA_TRANSITION_MINES_07               ls_tdm_07           tdm01       68569      
+27        "Mines08"                                 AREA_TRANSITION_MINES_08               ls_tdm_08           tdm01       68570      
+28        "Mines09"                                 AREA_TRANSITION_MINES_09               ls_tdm_09           tdm01       68571      
+29        "Sewer01"                                 AREA_TRANSITION_SEWER_01               ls_tds_01           tds01       68572      
+30        "Sewer02"                                 AREA_TRANSITION_SEWER_02               ls_tds_02           tds01       68573      
+31        "Sewer03"                                 AREA_TRANSITION_SEWER_03               ls_tds_03           tds01       68574      
+32        "Sewer04"                                 AREA_TRANSITION_SEWER_04               ls_tds_04           tds01       68575      
+33        "Sewer05"                                 AREA_TRANSITION_SEWER_05               ls_tds_05           tds01       68576      
+34        "Castle01"                                AREA_TRANSITION_CASTLE_01              ls_tic_01           tic01       68577      
+35        "Castle02"                                AREA_TRANSITION_CASTLE_02              ls_tic_02           tic01       68578      
+36        "Castle03"                                AREA_TRANSITION_CASTLE_03              ls_tic_03           tic01       68579      
+37        "Castle04"                                AREA_TRANSITION_CASTLE_04              ls_tic_04           tic01       68580      
+38        "Castle05"                                AREA_TRANSITION_CASTLE_05              ls_tic_05           tic01       68581      
+39        "Castle06"                                AREA_TRANSITION_CASTLE_06              ls_tic_06           tic01       68582      
+40        "Castle07"                                AREA_TRANSITION_CASTLE_07              ls_tic_07           tic01       68583      
+41        "Castle08"                                AREA_TRANSITION_CASTLE_08              ls_tic_08           tic01       68584      
+42        "Interior01"                              AREA_TRANSITION_INTERIOR_01            ls_tin_01           tin01       68585      
+43        "Interior02"                              AREA_TRANSITION_INTERIOR_02            ls_tin_02           tin01       68586      
+44        "Interior03"                              AREA_TRANSITION_INTERIOR_03            ls_tin_03           tin01       68587      
+45        "Interior04"                              AREA_TRANSITION_INTERIOR_04            ls_tin_04           tin01       68588      
+46        "Interior05"                              AREA_TRANSITION_INTERIOR_05            ls_tin_05           tin01       68589      
+47        "Interior06"                              AREA_TRANSITION_INTERIOR_06            ls_tin_06           tin01       68590      
+48        "Interior07"                              AREA_TRANSITION_INTERIOR_07            ls_tin_07           tin01       68591      
+49        "Interior08"                              AREA_TRANSITION_INTERIOR_08            ls_tin_08           tin01       68592      
+50        "Interior09"                              AREA_TRANSITION_INTERIOR_09            ls_tin_09           tin01       68593      
+51        "Interior10"                              AREA_TRANSITION_INTERIOR_10            ls_tin_10           tin01       68594      
+52        "Interior11"                              AREA_TRANSITION_INTERIOR_11            ls_tin_11           tin01       68595      
+53        "Interior12"                              AREA_TRANSITION_INTERIOR_12            ls_tin_12           tin01       68596      
+54        "Interior13"                              AREA_TRANSITION_INTERIOR_13            ls_tin_13           tin01       68597      
+55        "Interior14"                              AREA_TRANSITION_INTERIOR_14            ls_tin_14           tin01       68598      
+56        "Interior15"                              AREA_TRANSITION_INTERIOR_15            ls_tin_15           tin01       68599      
+57        "Interior16"                              AREA_TRANSITION_INTERIOR_16            ls_tin_16           tin01       68600      
+58        "Forest01"                                AREA_TRANSITION_FOREST_01              ls_ttf_01           ttf01       68601      
+59        "Forest02"                                AREA_TRANSITION_FOREST_02              ls_ttf_02           ttf01       68602      
+60        "Forest03"                                AREA_TRANSITION_FOREST_03              ls_ttf_03           ttf01       68603      
+61        "Forest04"                                AREA_TRANSITION_FOREST_04              ls_ttf_04           ttf01       68604      
+62        "Forest05"                                AREA_TRANSITION_FOREST_05              ls_ttf_05           ttf01       68605      
+63        "Rural01"                                 AREA_TRANSITION_RURAL_01               ls_ttr_01           ttr01       68606      
+64        "Rural02"                                 AREA_TRANSITION_RURAL_02               ls_ttr_02           ttr01       68607      
+65        "Rural03"                                 AREA_TRANSITION_RURAL_03               ls_ttr_03           ttr01       68608      
+66        "Rural04"                                 AREA_TRANSITION_RURAL_04               ls_ttr_04           ttr01       68609      
+67        "Rural05"                                 AREA_TRANSITION_RURAL_05               ls_ttr_05           ttr01       68610      
+68        "WinterRural01"                           AREA_TRANSITION_WRURAL_01              ls_tts_01           tts01       76396      
+69        "WinterRural02"                           AREA_TRANSITION_WRURAL_02              ls_tts_02           tts01       76397      
+70        "WinterRural03"                           AREA_TRANSITION_WRURAL_03              ls_tts_03           tts01       76398      
+71        "WinterRural04"                           AREA_TRANSITION_WRURAL_04              ls_tts_04           tts01       76399      
+72        "WinterRural05"                           AREA_TRANSITION_WRURAL_05              ls_tts_05           tts01       76400      
+73        "Desert01"                                AREA_TRANSITION_DESERT_01              ls_ttd_01           ttd01       76401      
+74        "Desert02"                                AREA_TRANSITION_DESERT_02              ls_ttd_02           ttd01       76402      
+75        "Desert03"                                AREA_TRANSITION_DESERT_03              ls_ttd_03           ttd01       76403      
+76        "Desert04"                                AREA_TRANSITION_DESERT_04              ls_ttd_04           ttd01       76404      
+77        "Desert05"                                AREA_TRANSITION_DESERT_05              ls_ttd_05           ttd01       76405      
+78        "Ruins01"                                 AREA_TRANSITION_RUINS_01               ls_tdr_01           tdr01       76406      
+79        "Ruins02"                                 AREA_TRANSITION_RUINS_02               ls_tdr_02           tdr01       76407      
+80        "Ruins03"                                 AREA_TRANSITION_RUINS_03               ls_tdr_03           tdr01       76408      
+81        "Ruins04"                                 AREA_TRANSITION_RUINS_04               ls_tdr_04           tdr01       76409      
+82        "Ruins05"                                 AREA_TRANSITION_RUINS_05               ls_tdr_05           tdr01       76410      
+83        "CaravanWinter01"                         AREA_TRANSITION_CARAVAN_WINTER         ls_car_01           tts01       76411      
+84        "CaravanDesert01"                         AREA_TRANSITION_CARAVAN_DESERT         ls_car_02           ttd01       76412      
+85        "CaravanRural01"                          AREA_TRANSITION_CARAVAN_RURAL          ls_car_03           ttr01       76413      
+86        "MagicalTransition01"                     AREA_TRANSITION_MAGICAL_01             ls_mag_01           ****        76414      
+87        "MagicalTransition02"                     AREA_TRANSITION_MAGICAL_02             ls_mag_02           ****        76415      
+88        "Underdark01"                             AREA_TRANSITION_UNDERDARK_01           ls_ttu_01           ttu01       84210      
+89        "Underdark02"                             AREA_TRANSITION_UNDERDARK_02           ls_ttu_02           ttu01       84211      
+90        "Underdark03"                             AREA_TRANSITION_UNDERDARK_03           ls_ttu_03           ttu01       84213      
+91        "Underdark04"                             AREA_TRANSITION_UNDERDARK_04           ls_ttu_04           ttu01       84215      
+92        "Underdark05"                             AREA_TRANSITION_UNDERDARK_05           ls_ttu_05           ttu01       84216      
+93        "Underdark06"                             AREA_TRANSITION_UNDERDARK_06           ls_ttu_06           ttu01       84217      
+94        "Underdark07"                             AREA_TRANSITION_UNDERDARK_07           ls_ttu_07           ttu01       84219      
+95        "Beholder01"                              AREA_TRANSITION_BEHOLDER_01            ls_tib_01           tib01       84220      
+96        "Beholder02"                              AREA_TRANSITION_BEHOLDER_02            ls_tib_02           tib01       84221      
+97        "Drow01"                                  AREA_TRANSITION_DROW_01                ls_tid_01           tid01       84222      
+98        "Drow02"                                  AREA_TRANSITION_DROW_02                ls_tid_02           tid01       84223      
+99        "Illithid01"                              AREA_TRANSITION_ILLITHID_01            ls_tii_01           tii01       84224      
+100       "Illithid02"                              AREA_TRANSITION_ILLITHID_02            ls_tii_02           tii01       84225      
+101       "Wastelands01"                            AREA_TRANSITION_WASTELAND_01           ls_tti_01           tti01       84531      
+102       "Wastelands02"                            AREA_TRANSITION_WASTELAND_02           ls_tti_02           tti01       84532      
+103       "Wastelands03"                            AREA_TRANSITION_WASTELAND_03           ls_tti_03           tti01       84533      
+104       "Drow03"                                  AREA_TRANSITION_DROW_03                ls_tid_03           tid01       84534      
+105       "Drow04"                                  AREA_TRANSITION_DROW_04                ls_tid_04           tid01       84535      
+106       "Island01"                                AREA_TRANSITION_ISLAND_01              ls_ttz_01           ttz01       ****       
+107       "Island02"                                AREA_TRANSITION_ISLAND_02              ls_ttz_02           ttz01       ****       
+108       "Island03"                                AREA_TRANSITION_ISLAND_03              ls_ttz_03           ttz01       ****       
+109       "Island04"                                AREA_TRANSITION_ISLAND_04              ls_ttz_04           ttz01       ****       
+110       "Island05"                                AREA_TRANSITION_ISLAND_05              ls_ttz_05           ttz01       ****       
+111       "Island06"                                AREA_TRANSITION_ISLAND_06              ls_ttz_06           ttz01       ****       
+112       "Island07"                                AREA_TRANSITION_ISLAND_07              ls_ttz_07           ttz01       ****       
+113       "Sea_Temple01"                            AREA_TRANSITION_TEMPLE_01              ls_tdt_01           tdt01       ****       
+114       "Sea_Temple02"                            AREA_TRANSITION_TEMPLE_02              ls_tdt_02           tdt01       ****       
+115       "Sea_Temple03"                            AREA_TRANSITION_TEMPLE_03              ls_tdt_03           tdt01       ****       
+116       "Sea_Temple04"                            AREA_TRANSITION_TEMPLE_04              ls_tdt_04           tdt01       ****       
+117       "Sea_Temple05"                            AREA_TRANSITION_TEMPLE_05              ls_tdt_05           tdt01       ****       
+118       "Ship01"                                  AREA_TRANSITION_SHIP_01                ls_ship_01          ****        ****       
+119       "Castle09"                                AREA_TRANSITION_CASTLE_09              ls_tic_09           tic01       ****       
+120       "Mines10"                                 AREA_TRANSITION_MINES_10               ls_tdm_10           tdm01       ****       
+121       "Mines11"                                 AREA_TRANSITION_MINES_11               ls_tdm_11           tdm01       ****       
+122       "Mines12"                                 AREA_TRANSITION_MINES_12               ls_tdm_12           tdm01       ****       
+123       "Dungeon09"                               AREA_TRANSITION_DUNGEON_09             ls_tde_09           tde01       ****       
+124       "AltarRoom01"                             AREA_TRANSITION_ALTAR_01               ls_altar_01         ****        ****       
+125       "SeaCavesWet06"                           AREA_TRANSITION_SEACAVE_06             ls_tdt_06           tdt01       ****       
+126       "SeaCavesWet07"                           AREA_TRANSITION_SEACAVE_07             ls_tdt_07           tdt01       ****       
+127       "SeaCavesWet08"                           AREA_TRANSITION_SEACAVE_08             ls_tdt_08           tdt01       ****       
+128       "SeaCavesWet09"                           AREA_TRANSITION_SEACAVE_09             ls_tdt_09           tdt01       ****       
+129       "Mines13"                                 AREA_TRANSITION_MINES_13               ls_tdm_13           tdm01       ****       
+130       "Mines14"                                 AREA_TRANSITION_MINES_14               ls_tdm_14           tdm01       ****       
+131       "Mines15"                                 AREA_TRANSITION_MINES_15               ls_tdm_15           tdm01       ****       
+132       "Mines16"                                 AREA_TRANSITION_MINES_16               ls_tdm_16           tdm01       ****       
+133       "Mines17"                                 AREA_TRANSITION_MINES_17               ls_tdm_17           tdm01       ****       
+134       "Mines18"                                 AREA_TRANSITION_MINES_18               ls_tdm_18           tdm01       ****       
+135       "FortInterior01"                          AREA_TRANSITION_FORT_01                ls_twc_01           twc03       ****       
+136       "FortInterior02"                          AREA_TRANSITION_FORT_02                ls_twc_02           twc03       ****       
+137       "FortInterior03"                          AREA_TRANSITION_FORT_03                ls_twc_03           twc03       ****       
+138       "FortInterior04"                          AREA_TRANSITION_FORT_04                ls_twc_04           twc03       ****       
+139       "FortInterior05"                          AREA_TRANSITION_FORT_05                ls_twc_05           twc03       ****       
+140       "FortInterior06"                          AREA_TRANSITION_FORT_06                ls_twc_06           twc03       ****       
+141       "FortInterior07"                          AREA_TRANSITION_FORT_07                ls_twc_07           twc03       ****       
+142       "FortInterior08"                          AREA_TRANSITION_FORT_08                ls_twc_08           twc03       ****       
+143       "FortInterior09"                          AREA_TRANSITION_FORT_09                ls_twc_09           twc03       ****       
+144       "FortInterior10"                          AREA_TRANSITION_FORT_10                ls_twc_10           twc03       ****       
+145       "FortInterior11"                          AREA_TRANSITION_FORT_11                ls_twc_11           twc03       ****       
+146       "Barrows01"                               AREA_TRANSITION_BARROWS01              ls_tbw_01           tbw01       ****       
+147       "Barrows02"                               AREA_TRANSITION_BARROWS02              ls_tbw_02           tbw01       ****       
+148       "Barrows03"                               AREA_TRANSITION_BARROWS03              ls_tbw_03           tbw01       ****       
+149       "Barrows04"                               AREA_TRANSITION_BARROWS04              ls_tbw_04           tbw01       ****       
+150       ****                                      ****                                   ****                ****        ****       
+151       ****                                      ****                                   ****                ****        ****       
+152       "Barrows07"                               AREA_TRANSITION_BARROWS07              ls_tbw_07           tbw01       ****       
+153       "Barrows08"                               AREA_TRANSITION_BARROWS08              ls_tbw_08           tbw01       ****       
+154       "Barrows09"                               AREA_TRANSITION_BARROWS09              ls_tbw_09           tbw01       ****       
+155       "Barrows10"                               AREA_TRANSITION_BARROWS10              ls_tbw_10           tbw01       ****       
+156       "Barrows11"                               AREA_TRANSITION_BARROWS11              ls_tbw_11           tbw01       ****       
+157       "Barrows12"                               AREA_TRANSITION_BARROWS12              ls_tbw_12           tbw01       ****       
+158       "Barrows13"                               AREA_TRANSITION_BARROWS13              ls_tbw_13           tbw01       ****       
+159       "Barrows14"                               AREA_TRANSITION_BARROWS14              ls_tbw_14           tbw01       ****       
+160       "Barrows15"                               AREA_TRANSITION_BARROWS15              ls_tbw_15           tbw01       ****       
+161       "TirNaInt01"                              AREA_TRANSITION_TNI_01                 ls_tni_01           tni01       ****       
+162       "TirNaInt02"                              AREA_TRANSITION_TNI_02                 ls_tni_02           tni01       ****       
+163       "TirNaInt03"                              AREA_TRANSITION_TNI_03                 ls_tni_03           tni01       ****       
+164       "TirNaInt04"                              AREA_TRANSITION_TNI_04                 ls_tni_04           tni01       ****       
+165       "TirNaInt05"                              AREA_TRANSITION_TNI_05                 ls_tni_05           tni01       ****       
+166       "TirNaInt06"                              AREA_TRANSITION_TNI_06                 ls_tni_06           tni01       ****       
+167       "TirNaInt07"                              AREA_TRANSITION_TNI_07                 ls_tni_07           tni01       ****       
+168       "TirNaInt09"                              AREA_TRANSITION_TNI_09                 ls_tni_09           tni02       ****       
+169       "TirNaInt10"                              AREA_TRANSITION_TNI_10                 ls_tni_10           tni02       ****       
+170       "TirNaInt11"                              AREA_TRANSITION_TNI_11                 ls_tni_11           tni02       ****       
+171       "TirNaInt12"                              AREA_TRANSITION_TNI_12                 ls_tni_12           tni02       ****       
+172       "TirNaInt13"                              AREA_TRANSITION_TNI_13                 ls_tni_13           tni02       ****       
+173       "TirNaInt14"                              AREA_TRANSITION_TNI_14                 ls_tni_14           tni02       ****       
+174       "TirNaInt15"                              AREA_TRANSITION_TNI_15                 ls_tni_15           tni02       ****       
+175       "TirNaInt16"                              AREA_TRANSITION_TNI_16                 ls_tni_16           tni02       ****       
+176       "TirNaInt17"                              AREA_TRANSITION_TNI_17                 ls_tni_17           tni02       ****       
+177       "TirNaNog01"                              AREA_TRANSITION_TNO_01                 ls_tno_01           tno01       ****       
+178       "TirNaNog02"                              AREA_TRANSITION_TNO_02                 ls_tno_02           tno01       ****       
+179       "TirNaNog03"                              AREA_TRANSITION_TNO_03                 ls_tno_03           tno01       ****       
+180       "TirNaNog04"                              AREA_TRANSITION_TNO_04                 ls_tno_04           tno01       ****       
+181       "TirNaNog05"                              AREA_TRANSITION_TNO_05                 ls_tno_05           tno01       ****       
+182       "TirNaNog06"                              AREA_TRANSITION_TNO_06                 ls_tno_06           tno01       ****       
+183       "TirNaNog07"                              AREA_TRANSITION_TNO_07                 ls_tno_07           tno01       ****       
+184       "TirNaNog08"                              AREA_TRANSITION_TNO_08                 ls_tno_08           tno01       ****       
+185       "TirNaNog09"                              AREA_TRANSITION_TNO_09                 ls_tno_09           tno01       ****       
+186       "TirNaNog10"                              AREA_TRANSITION_TNO_10                 ls_tno_10           tno01       ****       
+187       "TirNaNog21"                              AREA_TRANSITION_TNO_21                 ls_tno_21           tno01       ****       
+188       "TirNaNog22"                              AREA_TRANSITION_TNO_22                 ls_tno_22           tno01       ****       
+189       "TirNaNog23"                              AREA_TRANSITION_TNO_23                 ls_tno_23           tno01       ****       
+190       "TirNaNog24"                              AREA_TRANSITION_TNO_24                 ls_tno_24           tno01       ****       
+191       "TirNaNog25"                              AREA_TRANSITION_TNO_25                 ls_tno_25           tno01       ****       
+192       "TirNaNog26"                              AREA_TRANSITION_TNO_26                 ls_tno_26           tno01       ****       
+193       "TirNaNog27"                              AREA_TRANSITION_TNO_27                 ls_tno_27           tno01       ****       
+194       "TirNaNog28"                              AREA_TRANSITION_TNO_28                 ls_tno_28           tno01       ****       
+195       "TirNaNog29"                              AREA_TRANSITION_TNO_29                 ls_tno_29           tno01       ****       
+196       "TirNaNog30"                              AREA_TRANSITION_TNO_30                 ls_tno_30           tno01       ****       
+197       "TirNaNog31"                              AREA_TRANSITION_TNO_31                 ls_tno_31           tno01       ****       
+198       "TirNaNog32"                              AREA_TRANSITION_TNO_32                 ls_tno_32           tno01       ****       
+199       "TirNaNog33"                              AREA_TRANSITION_TNO_33                 ls_tno_33           tno01       ****       
+200       "TirNaNog34"                              AREA_TRANSITION_TNO_34                 ls_tno_34           tno01       ****       
+201       "TirNaNog35"                              AREA_TRANSITION_TNO_35                 ls_tno_35           tno01       ****       
+202       "TirNaNog36"                              AREA_TRANSITION_TNO_36                 ls_tno_36           tno01       ****       
+203       "TirNaNog37"                              AREA_TRANSITION_TNO_37                 ls_tno_37           tno01       ****       
+204       "TirNaNog38"                              AREA_TRANSITION_TNO_38                 ls_tno_38           tno01       ****       
+205       "Joust01"                                 AREA_TRANSITION_JOUST_01               ls_joust_01         tno01       ****       
+206       "Joust02"                                 AREA_TRANSITION_JOUST_01               ls_joust_02         tno01       ****       
+207       "Joust03"                                 AREA_TRANSITION_JOUST_01               ls_joust_03         tno01       ****       
+208       "Joust04"                                 AREA_TRANSITION_JOUST_01               ls_joust_04         tno01       ****       
+209       "Joust05"                                 AREA_TRANSITION_JOUST_01               ls_joust_05         tno01       ****       
+210       ****                                      ****                                   ****                ****        ****       
+211       ****                                      ****                                   ****                ****        ****       
+212       ****                                      ****                                   ****                ****        ****       
+213       ****                                      ****                                   ****                ****        ****       
+214       ****                                      ****                                   ****                ****        ****       
+215       ****                                      ****                                   ****                ****        ****       
+216       ****                                      ****                                   ****                ****        ****       
+217       ****                                      ****                                   ****                ****        ****       
+218       ****                                      ****                                   ****                ****        ****       
+219       ****                                      ****                                   ****                ****        ****       
+220       ****                                      ****                                   ****                ****        ****       
+221       ****                                      ****                                   ****                ****        ****       
+222       ****                                      ****                                   ****                ****        ****       
+223       ****                                      ****                                   ****                ****        ****       
+224       ****                                      ****                                   ****                ****        ****       
+225       ****                                      ****                                   ****                ****        ****       
+226       ****                                      ****                                   ****                ****        ****       
+227       ****                                      ****                                   ****                ****        ****       
+228       ****                                      ****                                   ****                ****        ****       
+229       ****                                      ****                                   ****                ****        ****       
+230       ****                                      ****                                   ****                ****        ****       
+231       ****                                      ****                                   ****                ****        ****       
+232       ****                                      ****                                   ****                ****        ****       
+233       ****                                      ****                                   ****                ****        ****       
+234       ****                                      ****                                   ****                ****        ****       
+235       ****                                      ****                                   ****                ****        ****       
+236       ****                                      ****                                   ****                ****        ****       
+237       ****                                      ****                                   ****                ****        ****       
+238       ****                                      ****                                   ****                ****        ****       
+239       ****                                      ****                                   ****                ****        ****       
+240       ****                                      ****                                   ****                ****        ****       
+241       ****                                      ****                                   ****                ****        ****       
+242       ****                                      ****                                   ****                ****        ****       
+243       ****                                      ****                                   ****                ****        ****       
+244       ****                                      ****                                   ****                ****        ****       
+245       ****                                      ****                                   ****                ****        ****       
+246       ****                                      ****                                   ****                ****        ****       
+247       ****                                      ****                                   ****                ****        ****       
+248       ****                                      ****                                   ****                ****        ****       
+249       ****                                      ****                                   ****                ****        ****       
+250       "Barrows05"                               AREA_TRANSITION_BARROWS05              ls_tbw_05           tbw01       ****       
+251       "Barrows06"                               AREA_TRANSITION_BARROWS06              ls_tbw_06           tbw01       ****       
+252       "Joust06"                                 AREA_TRANSITION_JOUST_01               ls_joust_06         tno01       ****       
+253       "SteamWork01"                             AREA_TRANSITION_TSW_01                 ls_tsw_01           tsw01       ****       
+254       "SteamWork02"                             AREA_TRANSITION_TSW_02                 ls_tsw_04           tsw01       ****       
+255       "SteamWork03"                             AREA_TRANSITION_TSW_03                 ls_tsw_06           tsw01       ****       
+256       "SteamWork04"                             AREA_TRANSITION_TSW_04                 ls_tsw_07           tsw01       ****       
+257       "SteamWork05"                             AREA_TRANSITION_TSW_05                 ls_tsw_08           tsw01       ****       
+258       "SteamWork06"                             AREA_TRANSITION_TSW_06                 ls_tsw_09           tsw01       ****       
+259       "SteamWork07"                             AREA_TRANSITION_TSW_07                 ls_tsw_02           tsw01       ****       
+260       "CTP Babylon 01"                          AREA_TRANSITION_TCED0_01               ls_tced0_01         tced0       ****       
+261       "CTP Babylon 02"                          AREA_TRANSITION_TCED0_02               ls_tced0_02         tced0       ****       
+262       "CTP Babylon 03"                          AREA_TRANSITION_TCED0_03               ls_tced0_03         tced0       ****       
+263       "CTP Babylon 04"                          AREA_TRANSITION_TCED0_04               ls_tced0_04         tced0       ****       
+264       "CTP Babylon 05"                          AREA_TRANSITION_TCED0_05               ls_tced0_05         tced0       ****       
+265       "CTP Babylon 06"                          AREA_TRANSITION_TCED0_06               ls_tced0_06         tced0       ****       
+266       "CTP Babylon 07"                          AREA_TRANSITION_TCED0_07               ls_tced0_07         tced0       ****       
+267       "CTP Babylon 08"                          AREA_TRANSITION_TCED0_08               ls_tced0_08         tced0       ****       
+268       "CTP Babylon 09"                          AREA_TRANSITION_TCED0_09               ls_tced0_09         tced0       ****       
+269       "CTP Babylon 10"                          AREA_TRANSITION_TCED0_10               ls_tced0_10         tced0       ****       
+270       "CTP Babylon 11"                          AREA_TRANSITION_TCED0_11               ls_tced0_11         tced0       ****       
+271       "CTP Babylon 12"                          AREA_TRANSITION_TCED0_12               ls_tced0_12         tced0       ****       
+272       "CTP Babylon 13"                          AREA_TRANSITION_TCED0_13               ls_tced0_13         tced0       ****       
+273       "CTP Babylon 14"                          AREA_TRANSITION_TCED0_14               ls_tced0_14         tced0       ****       
+274       "CTP Babylon 15"                          AREA_TRANSITION_TCED0_15               ls_tced0_15         tced0       ****       
+275       "CTP Babylon 16"                          AREA_TRANSITION_TCED0_16               ls_tced0_16         tced0       ****       
+276       "CTP Babylon 17"                          AREA_TRANSITION_TCED0_17               ls_tced0_17         tced0       ****       
+277       "CTP Babylon 18"                          AREA_TRANSITION_TCED0_18               ls_tced0_18         tced0       ****       
+278       "CTP Babylon 19"                          AREA_TRANSITION_TCED0_19               ls_tced0_19         tced0       ****       
+279       "CTP Babylon 20"                          AREA_TRANSITION_TCED0_20               ls_tced0_20         tced0       ****       
+280       "CTP Babylon 21"                          AREA_TRANSITION_TCED0_21               ls_tced0_21         tced0       ****       
+281       "CTP Babylon 22"                          AREA_TRANSITION_TCED0_22               ls_tced0_22         tced0       ****       
+282       "CTP Babylon 23"                          AREA_TRANSITION_TCED0_23               ls_tced0_23         tced0       ****       
+283       "CTP Babylon 24"                          AREA_TRANSITION_TCED0_24               ls_tced0_24         tced0       ****       
+284       "CTP Babylon 25"                          AREA_TRANSITION_TCED0_25               ls_tced0_25         tced0       ****       
+285       "CTP Babylon 26"                          AREA_TRANSITION_TCED0_26               ls_tced0_26         tced0       ****       
+286       "CTP Babylon 27"                          AREA_TRANSITION_TCED0_27               ls_tced0_27         tced0       ****       
+287       "CTP Babylon 28"                          AREA_TRANSITION_TCED0_28               ls_tced0_28         tced0       ****       
+288       "CTP Babylon 29"                          AREA_TRANSITION_TCED0_29               ls_tced0_29         tced0       ****       
+289       "CTP Babylon 30"                          AREA_TRANSITION_TCED0_30               ls_tced0_30         tced0       ****       
+290       "CTP Babylon 31"                          AREA_TRANSITION_TCED0_31               ls_tced0_31         tced0       ****       
+291       "CTP Babylon 32"                          AREA_TRANSITION_TCED0_32               ls_tced0_32         tced0       ****       
+292       "CTP Babylon 33"                          AREA_TRANSITION_TCED0_33               ls_tced0_33         tced0       ****       
+293       "CTP Babylon 34"                          AREA_TRANSITION_TCED0_34               ls_tced0_34         tced0       ****       
+294       "CTP Babylon 35"                          AREA_TRANSITION_TCED0_35               ls_tced0_35         tced0       ****       
+295       "Sen's Underdark 01"                      AREA_TRANSITION_SDG01_01               ls_sdg01_01         sdg01       ****       
+296       "Sen's Underdark 02"                      AREA_TRANSITION_SDG01_02               ls_sdg01_02         sdg01       ****       
+297       "Sen's Underdark 03"                      AREA_TRANSITION_SDG01_03               ls_sdg01_03         sdg01       ****       
+298       "Sen's Underdark 04"                      AREA_TRANSITION_SDG01_04               ls_sdg01_04         sdg01       ****       
+299       "Versatile Dungeon 01"                    AREA_TRANSITION_TVD_01                 ls_tvd_01           tvd         ****       
+300       ****                                      ****                                   ****                ****        ****       
+301       ****                                      ****                                   ****                ****        ****       
+302       ****                                      ****                                   ****                ****        ****       
+303       ****                                      ****                                   ****                ****        ****       
+304       ****                                      ****                                   ****                ****        ****       
+305       ****                                      ****                                   ****                ****        ****       
+306       ****                                      ****                                   ****                ****        ****       
+307       ****                                      ****                                   ****                ****        ****       
+308       ****                                      ****                                   ****                ****        ****       
+309       ****                                      ****                                   ****                ****        ****       
+310       ****                                      ****                                   ****                ****        ****       
+311       ****                                      ****                                   ****                ****        ****       
+312       ****                                      ****                                   ****                ****        ****       
+313       ****                                      ****                                   ****                ****        ****       
+314       ****                                      ****                                   ****                ****        ****       
+315       ****                                      ****                                   ****                ****        ****       
+316       ****                                      ****                                   ****                ****        ****       
+317       ****                                      ****                                   ****                ****        ****       
+318       ****                                      ****                                   ****                ****        ****       
+319       ****                                      ****                                   ****                ****        ****       
+320       ****                                      ****                                   ****                ****        ****       
+321       ****                                      ****                                   ****                ****        ****       
+322       ****                                      ****                                   ****                ****        ****       
+323       ****                                      ****                                   ****                ****        ****       
+324       ****                                      ****                                   ****                ****        ****       
+325       ****                                      ****                                   ****                ****        ****       
+326       ****                                      ****                                   ****                ****        ****       
+327       ****                                      ****                                   ****                ****        ****       
+328       ****                                      ****                                   ****                ****        ****       
+329       ****                                      ****                                   ****                ****        ****       
+330       ****                                      ****                                   ****                ****        ****       
+331       ****                                      ****                                   ****                ****        ****       
+332       ****                                      ****                                   ****                ****        ****       
+333       ****                                      ****                                   ****                ****        ****       
+334       ****                                      ****                                   ****                ****        ****       
+335       ****                                      ****                                   ****                ****        ****       
+336       ****                                      ****                                   ****                ****        ****       
+337       ****                                      ****                                   ****                ****        ****       
+338       ****                                      ****                                   ****                ****        ****       
+339       ****                                      ****                                   ****                ****        ****       
+340       ****                                      ****                                   ****                ****        ****       
+341       ****                                      ****                                   ****                ****        ****       
+342       ****                                      ****                                   ****                ****        ****       
+343       ****                                      ****                                   ****                ****        ****       
+344       ****                                      ****                                   ****                ****        ****       
+345       ****                                      ****                                   ****                ****        ****       
+346       ****                                      ****                                   ****                ****        ****       
+347       ****                                      ****                                   ****                ****        ****       
+348       ****                                      ****                                   ****                ****        ****       
+349       ****                                      ****                                   ****                ****        ****       
+350       ****                                      ****                                   ****                ****        ****       
+351       ****                                      ****                                   ****                ****        ****       
+352       ****                                      ****                                   ****                ****        ****       
+353       ****                                      ****                                   ****                ****        ****       
+354       ****                                      ****                                   ****                ****        ****       
+355       ****                                      ****                                   ****                ****        ****       
+356       ****                                      ****                                   ****                ****        ****       
+357       ****                                      ****                                   ****                ****        ****       
+358       ****                                      ****                                   ****                ****        ****       
+359       ****                                      ****                                   ****                ****        ****       
+360       ****                                      ****                                   ****                ****        ****       
+361       ****                                      ****                                   ****                ****        ****       
+362       ****                                      ****                                   ****                ****        ****       
+363       ****                                      ****                                   ****                ****        ****       
+364       ****                                      ****                                   ****                ****        ****       
+365       ****                                      ****                                   ****                ****        ****       
+366       ****                                      ****                                   ****                ****        ****       
+367       ****                                      ****                                   ****                ****        ****       
+368       ****                                      ****                                   ****                ****        ****       
+369       ****                                      ****                                   ****                ****        ****       
+370       ****                                      ****                                   ****                ****        ****       
+371       ****                                      ****                                   ****                ****        ****       
+372       ****                                      ****                                   ****                ****        ****       
+373       ****                                      ****                                   ****                ****        ****       
+374       ****                                      ****                                   ****                ****        ****       
+375       ****                                      ****                                   ****                ****        ****       
+376       ****                                      ****                                   ****                ****        ****       
+377       ****                                      ****                                   ****                ****        ****       
+378       ****                                      ****                                   ****                ****        ****       
+379       ****                                      ****                                   ****                ****        ****       
+380       ****                                      ****                                   ****                ****        ****       
+381       ****                                      ****                                   ****                ****        ****       
+382       ****                                      ****                                   ****                ****        ****       
+383       ****                                      ****                                   ****                ****        ****       
+384       ****                                      ****                                   ****                ****        ****       
+385       ****                                      ****                                   ****                ****        ****       
+386       ****                                      ****                                   ****                ****        ****       
+387       ****                                      ****                                   ****                ****        ****       
+388       ****                                      ****                                   ****                ****        ****       
+389       ****                                      ****                                   ****                ****        ****       
+390       ****                                      ****                                   ****                ****        ****       
+391       ****                                      ****                                   ****                ****        ****       
+392       ****                                      ****                                   ****                ****        ****       
+393       ****                                      ****                                   ****                ****        ****       
+394       ****                                      ****                                   ****                ****        ****       
+395       ****                                      ****                                   ****                ****        ****       
+396       ****                                      ****                                   ****                ****        ****       
+397       ****                                      ****                                   ****                ****        ****       
+398       ****                                      ****                                   ****                ****        ****       
+399       ****                                      ****                                   ****                ****        ****       
+400       ****                                      ****                                   ****                ****        ****       
+401       ****                                      ****                                   ****                ****        ****       
+402       ****                                      ****                                   ****                ****        ****       
+403       ****                                      ****                                   ****                ****        ****       
+404       ****                                      ****                                   ****                ****        ****       
+405       ****                                      ****                                   ****                ****        ****       
+406       ****                                      ****                                   ****                ****        ****       
+407       ****                                      ****                                   ****                ****        ****       
+408       ****                                      ****                                   ****                ****        ****       
+409       ****                                      ****                                   ****                ****        ****       
+410       ****                                      ****                                   ****                ****        ****       
+411       ****                                      ****                                   ****                ****        ****       
+412       ****                                      ****                                   ****                ****        ****       
+413       ****                                      ****                                   ****                ****        ****       
+414       ****                                      ****                                   ****                ****        ****       
+415       ****                                      ****                                   ****                ****        ****       
+416       ****                                      ****                                   ****                ****        ****       
+417       ****                                      ****                                   ****                ****        ****       
+418       ****                                      ****                                   ****                ****        ****       
+419       ****                                      ****                                   ****                ****        ****       
+420       ****                                      ****                                   ****                ****        ****       
+421       ****                                      ****                                   ****                ****        ****       
+422       ****                                      ****                                   ****                ****        ****       
+423       ****                                      ****                                   ****                ****        ****       
+424       ****                                      ****                                   ****                ****        ****       
+425       ****                                      ****                                   ****                ****        ****       
+426       ****                                      ****                                   ****                ****        ****       
+427       ****                                      ****                                   ****                ****        ****       
+428       ****                                      ****                                   ****                ****        ****       
+429       ****                                      ****                                   ****                ****        ****       
+430       ****                                      ****                                   ****                ****        ****       
+431       ****                                      ****                                   ****                ****        ****       
+432       ****                                      ****                                   ****                ****        ****       
+433       ****                                      ****                                   ****                ****        ****       
+434       ****                                      ****                                   ****                ****        ****       
+435       ****                                      ****                                   ****                ****        ****       
+436       ****                                      ****                                   ****                ****        ****       
+437       ****                                      ****                                   ****                ****        ****       
+438       ****                                      ****                                   ****                ****        ****       
+439       ****                                      ****                                   ****                ****        ****       
+440       ****                                      ****                                   ****                ****        ****       
+441       ****                                      ****                                   ****                ****        ****       
+442       ****                                      ****                                   ****                ****        ****       
+443       ****                                      ****                                   ****                ****        ****       
+444       ****                                      ****                                   ****                ****        ****       
+445       ****                                      ****                                   ****                ****        ****       
+446       ****                                      ****                                   ****                ****        ****       
+447       ****                                      ****                                   ****                ****        ****       
+448       ****                                      ****                                   ****                ****        ****       
+449       ****                                      ****                                   ****                ****        ****       
+450       ****                                      ****                                   ****                ****        ****       
+451       ****                                      ****                                   ****                ****        ****       
+452       ****                                      ****                                   ****                ****        ****       
+453       ****                                      ****                                   ****                ****        ****       
+454       ****                                      ****                                   ****                ****        ****       
+455       ****                                      ****                                   ****                ****        ****       
+456       ****                                      ****                                   ****                ****        ****       
+457       ****                                      ****                                   ****                ****        ****       
+458       ****                                      ****                                   ****                ****        ****       
+459       ****                                      ****                                   ****                ****        ****       
+460       ****                                      ****                                   ****                ****        ****       
+461       ****                                      ****                                   ****                ****        ****       
+462       ****                                      ****                                   ****                ****        ****       
+463       ****                                      ****                                   ****                ****        ****       
+464       ****                                      ****                                   ****                ****        ****       
+465       ****                                      ****                                   ****                ****        ****       
+466       ****                                      ****                                   ****                ****        ****       
+467       ****                                      ****                                   ****                ****        ****       
+468       ****                                      ****                                   ****                ****        ****       
+469       ****                                      ****                                   ****                ****        ****       
+470       ****                                      ****                                   ****                ****        ****       
+471       ****                                      ****                                   ****                ****        ****       
+472       ****                                      ****                                   ****                ****        ****       
+473       ****                                      ****                                   ****                ****        ****       
+474       ****                                      ****                                   ****                ****        ****       
+475       ****                                      ****                                   ****                ****        ****       
+476       ****                                      ****                                   ****                ****        ****       
+477       ****                                      ****                                   ****                ****        ****       
+478       ****                                      ****                                   ****                ****        ****       
+479       ****                                      ****                                   ****                ****        ****       
+480       ****                                      ****                                   ****                ****        ****       
+481       ****                                      ****                                   ****                ****        ****       
+482       ****                                      ****                                   ****                ****        ****       
+483       ****                                      ****                                   ****                ****        ****       
+484       ****                                      ****                                   ****                ****        ****       
+485       ****                                      ****                                   ****                ****        ****       
+486       ****                                      ****                                   ****                ****        ****       
+487       ****                                      ****                                   ****                ****        ****       
+488       ****                                      ****                                   ****                ****        ****       
+489       ****                                      ****                                   ****                ****        ****       
+490       ****                                      ****                                   ****                ****        ****       
+491       ****                                      ****                                   ****                ****        ****       
+492       ****                                      ****                                   ****                ****        ****       
+493       ****                                      ****                                   ****                ****        ****       
+494       ****                                      ****                                   ****                ****        ****       
+495       ****                                      ****                                   ****                ****        ****       
+496       ****                                      ****                                   ****                ****        ****       
+497       ****                                      ****                                   ****                ****        ****       
+498       ****                                      ****                                   ****                ****        ****       
+499       ****                                      ****                                   ****                ****        ****       
+500       ****                                      ****                                   ****                ****        ****       
+501       "Sinfar, Country 01"                      AREA_TRANSITION_SINFAR_COUNTRY_01      ls_sf_country1      ****        ****       
+502       "Sinfar, Darkmist 01"                     AREA_TRANSITION_SINFAR_DARKMIST_01     ls_sf_darkmist1     ****        ****       
+503       "Sinfar, Darkmist 02"                     AREA_TRANSITION_SINFAR_DARKMIST_02     ls_sf_darkmist2     ****        ****       
+504       "Sinfar, Darkmist 03"                     AREA_TRANSITION_SINFAR_DARKMIST_03     ls_sf_darkmist3     ****        ****       
+505       "Sinfar, Desert 01"                       AREA_TRANSITION_SINFAR_DESERT_01       ls_sf_desert1       ****        ****       
+506       "Sinfar, Desert 02"                       AREA_TRANSITION_SINFAR_DESERT_02       ls_sf_desert2       ****        ****       
+507       "Sinfar, Desert 03"                       AREA_TRANSITION_SINFAR_DESERT_03       ls_sf_desert3       ****        ****       
+508       "Sinfar, Eerie 01"                        AREA_TRANSITION_SINFAR_EERIE_01        ls_sf_eerie1        ****        ****       
+509       "Sinfar, Eerie 02"                        AREA_TRANSITION_SINFAR_EERIE_02        ls_sf_eerie2        ****        ****       
+510       "Sinfar, Esus 01"                         AREA_TRANSITION_SINFAR_ESUS_01         ls_sf_esus1         ****        ****       
+511       "Sinfar, Forest 01"                       AREA_TRANSITION_SINFAR_FOREST_01       ls_sf_forest1       ****        ****       
+512       "Sinfar, Forest 02"                       AREA_TRANSITION_SINFAR_FOREST_02       ls_sf_forest2       ****        ****       
+513       "Sinfar, Forest 03"                       AREA_TRANSITION_SINFAR_FOREST_03       ls_sf_forest3       ****        ****       
+514       "Sinfar, Forest 04"                       AREA_TRANSITION_SINFAR_FOREST_04       ls_sf_forest4       ****        ****       
+515       "Sinfar, Jungle 01"                       AREA_TRANSITION_SINFAR_JUNGLE_01       ls_sf_jungle1       ****        ****       
+516       "Sinfar, Jungle 02"                       AREA_TRANSITION_SINFAR_JUNGLE_02       ls_sf_jungle2       ****        ****       
+517       "Sinfar, Library 01"                      AREA_TRANSITION_SINFAR_LIBRARY_01      ls_sf_library1      ****        ****       
+518       "Sinfar, Oriental 01"                     AREA_TRANSITION_SINFAR_ORIENTAL_01     ls_sf_oriental1     ****        ****       
+519       "Sinfar, Sea 01"                          AREA_TRANSITION_SINFAR_SEA_01          ls_sf_sea1          ****        ****       
+520       "Sinfar, Snow 01"                         AREA_TRANSITION_SINFAR_SNOW_01         ls_sf_snow1         ****        ****       
+521       "Sinfar, Snow 02"                         AREA_TRANSITION_SINFAR_SNOW_02         ls_sf_snow2         ****        ****       
+522       "Sinfar, Tropical 01"                     AREA_TRANSITION_SINFAR_TROPICAL_01     ls_sf_tropical1     ****        ****       
+523       ****                                      ****                                   ****                ****        ****       
+524       ****                                      ****                                   ****                ****        ****       
+525       ****                                      ****                                   ****                ****        ****       
+526       ****                                      ****                                   ****                ****        ****       
+527       ****                                      ****                                   ****                ****        ****       
+528       ****                                      ****                                   ****                ****        ****       
+529       ****                                      ****                                   ****                ****        ****       
+530       ****                                      ****                                   ****                ****        ****       
+531       ****                                      ****                                   ****                ****        ****       
+532       ****                                      ****                                   ****                ****        ****       
+533       ****                                      ****                                   ****                ****        ****       
+534       ****                                      ****                                   ****                ****        ****       
+535       ****                                      ****                                   ****                ****        ****       
+536       ****                                      ****                                   ****                ****        ****       
+537       ****                                      ****                                   ****                ****        ****       
+538       ****                                      ****                                   ****                ****        ****       
+539       ****                                      ****                                   ****                ****        ****       
+540       ****                                      ****                                   ****                ****        ****       
+541       ****                                      ****                                   ****                ****        ****       
+542       ****                                      ****                                   ****                ****        ****       
+543       ****                                      ****                                   ****                ****        ****       
+544       ****                                      ****                                   ****                ****        ****       
+545       ****                                      ****                                   ****                ****        ****       
+546       ****                                      ****                                   ****                ****        ****       
+547       ****                                      ****                                   ****                ****        ****       
+548       ****                                      ****                                   ****                ****        ****       
+549       ****                                      ****                                   ****                ****        ****       
+550       ****                                      ****                                   ****                ****        ****       
+551       ****                                      ****                                   ****                ****        ****       
+552       ****                                      ****                                   ****                ****        ****       
+553       ****                                      ****                                   ****                ****        ****       
+554       ****                                      ****                                   ****                ****        ****       
+555       ****                                      ****                                   ****                ****        ****       
+556       ****                                      ****                                   ****                ****        ****       
+557       ****                                      ****                                   ****                ****        ****       
+558       ****                                      ****                                   ****                ****        ****       
+559       ****                                      ****                                   ****                ****        ****       
+560       ****                                      ****                                   ****                ****        ****       
+561       ****                                      ****                                   ****                ****        ****       
+562       ****                                      ****                                   ****                ****        ****       
+563       ****                                      ****                                   ****                ****        ****       
+564       ****                                      ****                                   ****                ****        ****       
+565       ****                                      ****                                   ****                ****        ****       
+566       ****                                      ****                                   ****                ****        ****       
+567       ****                                      ****                                   ****                ****        ****       
+568       ****                                      ****                                   ****                ****        ****       
+569       ****                                      ****                                   ****                ****        ****       
+570       ****                                      ****                                   ****                ****        ****       
+571       ****                                      ****                                   ****                ****        ****       
+572       ****                                      ****                                   ****                ****        ****       
+573       ****                                      ****                                   ****                ****        ****       
+574       ****                                      ****                                   ****                ****        ****       
+575       ****                                      ****                                   ****                ****        ****       
+576       ****                                      ****                                   ****                ****        ****       
+577       ****                                      ****                                   ****                ****        ****       
+578       ****                                      ****                                   ****                ****        ****       
+579       ****                                      ****                                   ****                ****        ****       
+580       ****                                      ****                                   ****                ****        ****       
+581       ****                                      ****                                   ****                ****        ****       
+582       ****                                      ****                                   ****                ****        ****       
+583       ****                                      ****                                   ****                ****        ****       
+584       ****                                      ****                                   ****                ****        ****       
+585       ****                                      ****                                   ****                ****        ****       
+586       ****                                      ****                                   ****                ****        ****       
+587       ****                                      ****                                   ****                ****        ****       
+588       ****                                      ****                                   ****                ****        ****       
+589       ****                                      ****                                   ****                ****        ****       
+590       ****                                      ****                                   ****                ****        ****       
+591       ****                                      ****                                   ****                ****        ****       
+592       ****                                      ****                                   ****                ****        ****       
+593       ****                                      ****                                   ****                ****        ****       
+594       ****                                      ****                                   ****                ****        ****       
+595       ****                                      ****                                   ****                ****        ****       
+596       ****                                      ****                                   ****                ****        ****       
+597       ****                                      ****                                   ****                ****        ****       
+598       ****                                      ****                                   ****                ****        ****       
+599       ****                                      ****                                   ****                ****        ****       
+600       ****                                      ****                                   ****                ****        ****       
+601       ****                                      ****                                   ****                ****        ****       
+602       ****                                      ****                                   ****                ****        ****       
+603       ****                                      ****                                   ****                ****        ****       
+604       ****                                      ****                                   ****                ****        ****       
+605       ****                                      ****                                   ****                ****        ****       
+606       ****                                      ****                                   ****                ****        ****       
+607       ****                                      ****                                   ****                ****        ****       
+608       ****                                      ****                                   ****                ****        ****       
+609       ****                                      ****                                   ****                ****        ****       
+610       ****                                      ****                                   ****                ****        ****       
+611       ****                                      ****                                   ****                ****        ****       
+612       ****                                      ****                                   ****                ****        ****       
+613       ****                                      ****                                   ****                ****        ****       
+614       ****                                      ****                                   ****                ****        ****       
+615       ****                                      ****                                   ****                ****        ****       
+616       ****                                      ****                                   ****                ****        ****       
+617       ****                                      ****                                   ****                ****        ****       
+618       ****                                      ****                                   ****                ****        ****       
+619       ****                                      ****                                   ****                ****        ****       
+620       ****                                      ****                                   ****                ****        ****       
+621       ****                                      ****                                   ****                ****        ****       
+622       ****                                      ****                                   ****                ****        ****       
+623       ****                                      ****                                   ****                ****        ****       
+624       ****                                      ****                                   ****                ****        ****       
+625       ****                                      ****                                   ****                ****        ****       
+626       ****                                      ****                                   ****                ****        ****       
+627       ****                                      ****                                   ****                ****        ****       
+628       ****                                      ****                                   ****                ****        ****       
+629       ****                                      ****                                   ****                ****        ****       
+630       ****                                      ****                                   ****                ****        ****       
+631       ****                                      ****                                   ****                ****        ****       
+632       ****                                      ****                                   ****                ****        ****       
+633       ****                                      ****                                   ****                ****        ****       
+634       ****                                      ****                                   ****                ****        ****       
+635       ****                                      ****                                   ****                ****        ****       
+636       ****                                      ****                                   ****                ****        ****       
+637       ****                                      ****                                   ****                ****        ****       
+638       ****                                      ****                                   ****                ****        ****       
+639       ****                                      ****                                   ****                ****        ****       
+640       ****                                      ****                                   ****                ****        ****       
+641       ****                                      ****                                   ****                ****        ****       
+642       ****                                      ****                                   ****                ****        ****       
+643       ****                                      ****                                   ****                ****        ****       
+644       ****                                      ****                                   ****                ****        ****       
+645       ****                                      ****                                   ****                ****        ****       
+646       ****                                      ****                                   ****                ****        ****       
+647       ****                                      ****                                   ****                ****        ****       
+648       ****                                      ****                                   ****                ****        ****       
+649       ****                                      ****                                   ****                ****        ****       
+650       ****                                      ****                                   ****                ****        ****       
+651       ****                                      ****                                   ****                ****        ****       
+652       ****                                      ****                                   ****                ****        ****       
+653       ****                                      ****                                   ****                ****        ****       
+654       ****                                      ****                                   ****                ****        ****       
+655       ****                                      ****                                   ****                ****        ****       
+656       ****                                      ****                                   ****                ****        ****       
+657       ****                                      ****                                   ****                ****        ****       
+658       ****                                      ****                                   ****                ****        ****       
+659       ****                                      ****                                   ****                ****        ****       
+660       ****                                      ****                                   ****                ****        ****       
+661       ****                                      ****                                   ****                ****        ****       
+662       ****                                      ****                                   ****                ****        ****       
+663       ****                                      ****                                   ****                ****        ****       
+664       ****                                      ****                                   ****                ****        ****       
+665       ****                                      ****                                   ****                ****        ****       
+666       ****                                      ****                                   ****                ****        ****       
+667       ****                                      ****                                   ****                ****        ****       
+668       ****                                      ****                                   ****                ****        ****       
+669       ****                                      ****                                   ****                ****        ****       
+670       ****                                      ****                                   ****                ****        ****       
+671       ****                                      ****                                   ****                ****        ****       
+672       ****                                      ****                                   ****                ****        ****       
+673       ****                                      ****                                   ****                ****        ****       
+674       ****                                      ****                                   ****                ****        ****       
+675       ****                                      ****                                   ****                ****        ****       
+676       ****                                      ****                                   ****                ****        ****       
+677       ****                                      ****                                   ****                ****        ****       
+678       ****                                      ****                                   ****                ****        ****       
+679       ****                                      ****                                   ****                ****        ****       
+680       ****                                      ****                                   ****                ****        ****       
+681       ****                                      ****                                   ****                ****        ****       
+682       ****                                      ****                                   ****                ****        ****       
+683       ****                                      ****                                   ****                ****        ****       
+684       ****                                      ****                                   ****                ****        ****       
+685       ****                                      ****                                   ****                ****        ****       
+686       ****                                      ****                                   ****                ****        ****       
+687       ****                                      ****                                   ****                ****        ****       
+688       ****                                      ****                                   ****                ****        ****       
+689       ****                                      ****                                   ****                ****        ****       
+690       ****                                      ****                                   ****                ****        ****       
+691       ****                                      ****                                   ****                ****        ****       
+692       ****                                      ****                                   ****                ****        ****       
+693       ****                                      ****                                   ****                ****        ****       
+694       ****                                      ****                                   ****                ****        ****       
+695       ****                                      ****                                   ****                ****        ****       
+696       ****                                      ****                                   ****                ****        ****       
+697       ****                                      ****                                   ****                ****        ****       
+698       ****                                      ****                                   ****                ****        ****       
+699       ****                                      ****                                   ****                ****        ****       
+700       ****                                      ****                                   ****                ****        ****       
+701       ****                                      ****                                   ****                ****        ****       
+702       ****                                      ****                                   ****                ****        ****       
+703       ****                                      ****                                   ****                ****        ****       
+704       ****                                      ****                                   ****                ****        ****       
+705       ****                                      ****                                   ****                ****        ****       
+706       ****                                      ****                                   ****                ****        ****       
+707       ****                                      ****                                   ****                ****        ****       
+708       ****                                      ****                                   ****                ****        ****       
+709       ****                                      ****                                   ****                ****        ****       
+710       ****                                      ****                                   ****                ****        ****       
+711       ****                                      ****                                   ****                ****        ****       
+712       ****                                      ****                                   ****                ****        ****       
+713       ****                                      ****                                   ****                ****        ****       
+714       ****                                      ****                                   ****                ****        ****       
+715       ****                                      ****                                   ****                ****        ****       
+716       ****                                      ****                                   ****                ****        ****       
+717       ****                                      ****                                   ****                ****        ****       
+718       ****                                      ****                                   ****                ****        ****       
+719       ****                                      ****                                   ****                ****        ****       
+720       ****                                      ****                                   ****                ****        ****       
+721       ****                                      ****                                   ****                ****        ****       
+722       ****                                      ****                                   ****                ****        ****       
+723       ****                                      ****                                   ****                ****        ****       
+724       ****                                      ****                                   ****                ****        ****       
+725       ****                                      ****                                   ****                ****        ****       
+726       ****                                      ****                                   ****                ****        ****       
+727       ****                                      ****                                   ****                ****        ****       
+728       ****                                      ****                                   ****                ****        ****       
+729       ****                                      ****                                   ****                ****        ****       
+730       ****                                      ****                                   ****                ****        ****       
+731       ****                                      ****                                   ****                ****        ****       
+732       ****                                      ****                                   ****                ****        ****       
+733       ****                                      ****                                   ****                ****        ****       
+734       ****                                      ****                                   ****                ****        ****       
+735       ****                                      ****                                   ****                ****        ****       
+736       ****                                      ****                                   ****                ****        ****       
+737       ****                                      ****                                   ****                ****        ****       
+738       ****                                      ****                                   ****                ****        ****       
+739       ****                                      ****                                   ****                ****        ****       
+740       ****                                      ****                                   ****                ****        ****       
+741       ****                                      ****                                   ****                ****        ****       
+742       ****                                      ****                                   ****                ****        ****       
+743       ****                                      ****                                   ****                ****        ****       
+744       ****                                      ****                                   ****                ****        ****       
+745       ****                                      ****                                   ****                ****        ****       
+746       ****                                      ****                                   ****                ****        ****       
+747       ****                                      ****                                   ****                ****        ****       
+748       ****                                      ****                                   ****                ****        ****       
+749       ****                                      ****                                   ****                ****        ****       
+750       ****                                      ****                                   ****                ****        ****       
+751       ****                                      ****                                   ****                ****        ****       
+752       ****                                      ****                                   ****                ****        ****       
+753       ****                                      ****                                   ****                ****        ****       
+754       ****                                      ****                                   ****                ****        ****       
+755       ****                                      ****                                   ****                ****        ****       
+756       ****                                      ****                                   ****                ****        ****       
+757       ****                                      ****                                   ****                ****        ****       
+758       ****                                      ****                                   ****                ****        ****       
+759       ****                                      ****                                   ****                ****        ****       
+760       ****                                      ****                                   ****                ****        ****       
+761       ****                                      ****                                   ****                ****        ****       
+762       ****                                      ****                                   ****                ****        ****       
+763       ****                                      ****                                   ****                ****        ****       
+764       ****                                      ****                                   ****                ****        ****       
+765       ****                                      ****                                   ****                ****        ****       
+766       ****                                      ****                                   ****                ****        ****       
+767       ****                                      ****                                   ****                ****        ****       
+768       ****                                      ****                                   ****                ****        ****       
+769       ****                                      ****                                   ****                ****        ****       
+770       ****                                      ****                                   ****                ****        ****       
+771       ****                                      ****                                   ****                ****        ****       
+772       ****                                      ****                                   ****                ****        ****       
+773       ****                                      ****                                   ****                ****        ****       
+774       ****                                      ****                                   ****                ****        ****       
+775       ****                                      ****                                   ****                ****        ****       
+776       ****                                      ****                                   ****                ****        ****       
+777       ****                                      ****                                   ****                ****        ****       
+778       ****                                      ****                                   ****                ****        ****       
+779       ****                                      ****                                   ****                ****        ****       
+780       ****                                      ****                                   ****                ****        ****       
+781       ****                                      ****                                   ****                ****        ****       
+782       ****                                      ****                                   ****                ****        ****       
+783       ****                                      ****                                   ****                ****        ****       
+784       ****                                      ****                                   ****                ****        ****       
+785       ****                                      ****                                   ****                ****        ****       
+786       ****                                      ****                                   ****                ****        ****       
+787       ****                                      ****                                   ****                ****        ****       
+788       ****                                      ****                                   ****                ****        ****       
+789       ****                                      ****                                   ****                ****        ****       
+790       ****                                      ****                                   ****                ****        ****       
+791       ****                                      ****                                   ****                ****        ****       
+792       ****                                      ****                                   ****                ****        ****       
+793       ****                                      ****                                   ****                ****        ****       
+794       ****                                      ****                                   ****                ****        ****       
+795       ****                                      ****                                   ****                ****        ****       
+796       ****                                      ****                                   ****                ****        ****       
+797       ****                                      ****                                   ****                ****        ****       
+798       ****                                      ****                                   ****                ****        ****       
+799       ****                                      ****                                   ****                ****        ****       
+800       ****                                      ****                                   ****                ****        ****       
+801       ****                                      ****                                   ****                ****        ****       
+802       ****                                      ****                                   ****                ****        ****       
+803       ****                                      ****                                   ****                ****        ****       
+804       ****                                      ****                                   ****                ****        ****       
+805       ****                                      ****                                   ****                ****        ****       
+806       ****                                      ****                                   ****                ****        ****       
+807       ****                                      ****                                   ****                ****        ****       
+808       ****                                      ****                                   ****                ****        ****       
+809       ****                                      ****                                   ****                ****        ****       
+810       ****                                      ****                                   ****                ****        ****       
+811       ****                                      ****                                   ****                ****        ****       
+812       ****                                      ****                                   ****                ****        ****       
+813       ****                                      ****                                   ****                ****        ****       
+814       ****                                      ****                                   ****                ****        ****       
+815       ****                                      ****                                   ****                ****        ****       
+816       ****                                      ****                                   ****                ****        ****       
+817       ****                                      ****                                   ****                ****        ****       
+818       ****                                      ****                                   ****                ****        ****       
+819       ****                                      ****                                   ****                ****        ****       
+820       ****                                      ****                                   ****                ****        ****       
+821       ****                                      ****                                   ****                ****        ****       
+822       ****                                      ****                                   ****                ****        ****       
+823       ****                                      ****                                   ****                ****        ****       
+824       ****                                      ****                                   ****                ****        ****       
+825       ****                                      ****                                   ****                ****        ****       
+826       ****                                      ****                                   ****                ****        ****       
+827       ****                                      ****                                   ****                ****        ****       
+828       ****                                      ****                                   ****                ****        ****       
+829       ****                                      ****                                   ****                ****        ****       
+830       ****                                      ****                                   ****                ****        ****       
+831       ****                                      ****                                   ****                ****        ****       
+832       ****                                      ****                                   ****                ****        ****       
+833       ****                                      ****                                   ****                ****        ****       
+834       ****                                      ****                                   ****                ****        ****       
+835       ****                                      ****                                   ****                ****        ****       
+836       ****                                      ****                                   ****                ****        ****       
+837       ****                                      ****                                   ****                ****        ****       
+838       ****                                      ****                                   ****                ****        ****       
+839       ****                                      ****                                   ****                ****        ****       
+840       ****                                      ****                                   ****                ****        ****       
+841       ****                                      ****                                   ****                ****        ****       
+842       ****                                      ****                                   ****                ****        ****       
+843       ****                                      ****                                   ****                ****        ****       
+844       ****                                      ****                                   ****                ****        ****       
+845       ****                                      ****                                   ****                ****        ****       
+846       ****                                      ****                                   ****                ****        ****       
+847       ****                                      ****                                   ****                ****        ****       
+848       ****                                      ****                                   ****                ****        ****       
+849       ****                                      ****                                   ****                ****        ****       
+850       ****                                      ****                                   ****                ****        ****       
+851       ****                                      ****                                   ****                ****        ****       
+852       ****                                      ****                                   ****                ****        ****       
+853       ****                                      ****                                   ****                ****        ****       
+854       ****                                      ****                                   ****                ****        ****       
+855       ****                                      ****                                   ****                ****        ****       
+856       ****                                      ****                                   ****                ****        ****       
+857       ****                                      ****                                   ****                ****        ****       
+858       ****                                      ****                                   ****                ****        ****       
+859       ****                                      ****                                   ****                ****        ****       
+860       ****                                      ****                                   ****                ****        ****       
+861       ****                                      ****                                   ****                ****        ****       
+862       ****                                      ****                                   ****                ****        ****       
+863       ****                                      ****                                   ****                ****        ****       
+864       ****                                      ****                                   ****                ****        ****       
+865       ****                                      ****                                   ****                ****        ****       
+866       ****                                      ****                                   ****                ****        ****       
+867       ****                                      ****                                   ****                ****        ****       
+868       ****                                      ****                                   ****                ****        ****       
+869       ****                                      ****                                   ****                ****        ****       
+870       ****                                      ****                                   ****                ****        ****       
+871       ****                                      ****                                   ****                ****        ****       
+872       ****                                      ****                                   ****                ****        ****       
+873       ****                                      ****                                   ****                ****        ****       
+874       ****                                      ****                                   ****                ****        ****       
+875       ****                                      ****                                   ****                ****        ****       
+876       ****                                      ****                                   ****                ****        ****       
+877       ****                                      ****                                   ****                ****        ****       
+878       ****                                      ****                                   ****                ****        ****       
+879       ****                                      ****                                   ****                ****        ****       
+880       ****                                      ****                                   ****                ****        ****       
+881       ****                                      ****                                   ****                ****        ****       
+882       ****                                      ****                                   ****                ****        ****       
+883       ****                                      ****                                   ****                ****        ****       
+884       ****                                      ****                                   ****                ****        ****       
+885       ****                                      ****                                   ****                ****        ****       
+886       ****                                      ****                                   ****                ****        ****       
+887       ****                                      ****                                   ****                ****        ****       
+888       ****                                      ****                                   ****                ****        ****       
+889       ****                                      ****                                   ****                ****        ****       
+890       ****                                      ****                                   ****                ****        ****       
+891       ****                                      ****                                   ****                ****        ****       
+892       ****                                      ****                                   ****                ****        ****       
+893       ****                                      ****                                   ****                ****        ****       
+894       ****                                      ****                                   ****                ****        ****       
+895       ****                                      ****                                   ****                ****        ****       
+896       ****                                      ****                                   ****                ****        ****       
+897       ****                                      ****                                   ****                ****        ****       
+898       ****                                      ****                                   ****                ****        ****       
+899       ****                                      ****                                   ****                ****        ****       
+900       ****                                      ****                                   ****                ****        ****       
+901       ****                                      ****                                   ****                ****        ****       
+902       ****                                      ****                                   ****                ****        ****       
+903       ****                                      ****                                   ****                ****        ****       
+904       ****                                      ****                                   ****                ****        ****       
+905       ****                                      ****                                   ****                ****        ****       
+906       ****                                      ****                                   ****                ****        ****       
+907       ****                                      ****                                   ****                ****        ****       
+908       ****                                      ****                                   ****                ****        ****       
+909       ****                                      ****                                   ****                ****        ****       
+910       ****                                      ****                                   ****                ****        ****       
+911       "Oriental Rural, Bamboo"                  AREA_TRANSITION_ORI01_01               ls_ori01_01         ori01       ****       
+912       "Oriental Rural, Temple"                  AREA_TRANSITION_ORI01_02               ls_ori01_02         ori01       ****       
+913       "Oriental Rural, Noble"                   AREA_TRANSITION_ORI01_03               ls_ori01_03         ori01       ****       
+914       "Oriental Interior, Noble"                AREA_TRANSITION_ORI02_01               ls_ori02_01         ori02       ****       
+915       "Oriental Interior, Temple"               AREA_TRANSITION_ORI02_02               ls_ori02_02         ori02       ****       
+916       ****                                      ****                                   ****                ****        ****       
+917       ****                                      ****                                   ****                ****        ****       
+918       ****                                      ****                                   ****                ****        ****       
+919       ****                                      ****                                   ****                ****        ****       
+920       ****                                      ****                                   ****                ****        ****       
+921       "Modern, Suburbs 01"                      AREA_TRANSITION_UDP1_01                ls_udp1_01          udp1        ****       
+922       "Modern, Suburbs 02"                      AREA_TRANSITION_UDP1_02                ls_udp1_02          udp1        ****       
+923       "Modern, Suburbs 03"                      AREA_TRANSITION_UDP1_03                ls_udp1_03          udp1        ****       
+924       "Modern, Suburbs 04"                      AREA_TRANSITION_UDP1_04                ls_udp1_04          udp1        ****       
+925       "Modern, Suburbs 05"                      AREA_TRANSITION_UDP1_05                ls_udp1_05          udp1        ****       
+926       "Modern, Suburbs 06"                      AREA_TRANSITION_UDP1_06                ls_udp1_06          udp1        ****       
+927       ****                                      ****                                   ****                ****        ****       
+928       ****                                      ****                                   ****                ****        ****       
+929       ****                                      ****                                   ****                ****        ****       
+930       ****                                      ****                                   ****                ****        ****       
+931       "Elven Treetop City 01"                   AREA_TRANSITION_THF02_01               ls_thf02_01         thf02       ****       
+932       "Elven Treetop City 02"                   AREA_TRANSITION_THF02_02               ls_thf02_02         thf02       ****       
+933       "Elven Treetop City 03"                   AREA_TRANSITION_THF02_03               ls_thf02_03         thf02       ****       
+934       ****                                      ****                                   ****                ****        ****       
+935       ****                                      ****                                   ****                ****        ****       
+936       ****                                      ****                                   ****                ****        ****       
+937       ****                                      ****                                   ****                ****        ****       
+938       ****                                      ****                                   ****                ****        ****       
+939       ****                                      ****                                   ****                ****        ****       
+940       ****                                      ****                                   ****                ****        ****       
+941       "Sigil, Stem Interior 01"                 AREA_TRANSITION_THV01_01               ls_thv01_01         thv01       ****       
+942       "Sigil, Stem Interior 02"                 AREA_TRANSITION_THV01_02               ls_thv01_02         thv01       ****       
+943       "Sigil, Stem Interior 03"                 AREA_TRANSITION_THV01_03               ls_thv01_03         thv01       ****       
+944       "Sigil, Stem Interior 04"                 AREA_TRANSITION_THV01_04               ls_thv01_04         thv01       ****       
+945       "Sigil, Stem Interior 05"                 AREA_TRANSITION_THV01_05               ls_thv01_05         thv01       ****       
+946       ****                                      ****                                   ****                ****        ****       
+947       ****                                      ****                                   ****                ****        ****       
+948       ****                                      ****                                   ****                ****        ****       
+949       ****                                      ****                                   ****                ****        ****       
+950       ****                                      ****                                   ****                ****        ****       
+951       "Sigil Exterior 01"                       AREA_TRANSITION_TPS01_01               ls_tps01_01         tps01       ****       
+952       "Sigil Exterior 02"                       AREA_TRANSITION_TPS01_02               ls_tps01_02         tps01       ****       
+953       "Sigil Exterior 03"                       AREA_TRANSITION_TPS01_03               ls_tps01_03         tps01       ****       
+954       "Sigil Exterior 04"                       AREA_TRANSITION_TPS01_04               ls_tps01_04         tps01       ****       
+955       "Sigil Exterior 05"                       AREA_TRANSITION_TPS01_05               ls_tps01_05         tps01       ****       
+956       "Sigil Exterior 06"                       AREA_TRANSITION_TPS01_06               ls_tps01_06         tps01       ****       
+957       "Sigil Exterior 07"                       AREA_TRANSITION_TPS01_07               ls_tps01_07         tps01       ****       
+958       ****                                      ****                                   ****                ****        ****       
+959       ****                                      ****                                   ****                ****        ****       
+960       ****                                      ****                                   ****                ****        ****       
+961       "Marble Elven Interior, Column Hall"      AREA_TRANSITION_BVI80_01               ls_bvi80_01         bvi80       ****       
+962       "Marble Elven Interior, Bridge"           AREA_TRANSITION_BVI80_02               ls_bvi80_02         bvi80       ****       
+963       "Marble Elven Interior, Altar"            AREA_TRANSITION_BVI80_03               ls_bvi80_03         bvi80       ****       
+964       "Marble Elven Interior, Column"           AREA_TRANSITION_BVI80_04               ls_bvi80_04         bvi80       ****       
+965       "Marble Elven Interior, Fountain"         AREA_TRANSITION_BVI80_05               ls_bvi80_05         bvi80       ****       
+966       "Marble Elven Interior, Water Bridge"     AREA_TRANSITION_BVI80_06               ls_bvi80_06         bvi80       ****       
+967       "Marble Elven Interior, Mosaic Door"      AREA_TRANSITION_BVI80_07               ls_bvi80_07         bvi80       ****       
+968       "Marble Elven Interior, Portal"           AREA_TRANSITION_BVI80_08               ls_bvi80_08         bvi80       ****       
+969       ****                                      ****                                   ****                ****        ****       
+970       ****                                      ****                                   ****                ****        ****       
+971       "Starship Interior 01"                    AREA_TRANSITION_SHP02_01               ls_shp02_01         shp02       ****       
+972       "Starship Interior 02"                    AREA_TRANSITION_SHP02_02               ls_shp02_02         shp02       ****       
+973       "Starship Interior 03"                    AREA_TRANSITION_SHP02_03               ls_shp02_03         shp02       ****       
+974       "Starship Interior 04"                    AREA_TRANSITION_SHP02_04               ls_shp02_04         shp02       ****       
+975       "Starship Interior 05"                    AREA_TRANSITION_SHP02_05               ls_shp02_05         shp02       ****       
+976       "Starship Interior 06"                    AREA_TRANSITION_SHP02_06               ls_shp02_06         shp02       ****       
+977       "Starship Interior 07"                    AREA_TRANSITION_SHP02_07               ls_shp02_07         shp02       ****       
+978       "Starship Interior 08"                    AREA_TRANSITION_SHP02_08               ls_shp02_08         shp02       ****       
+979       "Starship Interior 09"                    AREA_TRANSITION_SHP02_09               ls_shp02_09         shp02       ****       
+980       "Starship Interior 10"                    AREA_TRANSITION_SHP02_10               ls_shp02_10         shp02       ****       
+981       "Starship Interior 11"                    AREA_TRANSITION_SHP02_11               ls_shp02_11         shp02       ****       
+982       "Starship Interior 12"                    AREA_TRANSITION_SHP02_12               ls_shp02_12         shp02       ****       
+983       "Starship Interior 13"                    AREA_TRANSITION_SHP02_13               ls_shp02_13         shp02       ****       
+984       "Starship Interior 14"                    AREA_TRANSITION_SHP02_14               ls_shp02_14         shp02       ****       
+985       "Starship Interior 15"                    AREA_TRANSITION_SHP02_15               ls_shp02_15         shp02       ****       
+986       "Starship Interior 16"                    AREA_TRANSITION_SHP02_16               ls_shp02_16         shp02       ****       
+987       "Starship Interior 17"                    AREA_TRANSITION_SHP02_17               ls_shp02_17         shp02       ****       
+988       "Starship Interior 18"                    AREA_TRANSITION_SHP02_18               ls_shp02_18         shp02       ****       
+989       "Starship Interior 19"                    AREA_TRANSITION_SHP02_19               ls_shp02_19         shp02       ****       
+990       "Starship Interior 20"                    AREA_TRANSITION_SHP02_20               ls_shp02_20         shp02       ****       
+991       ****                                      ****                                   ****                ****        ****       
+992       ****                                      ****                                   ****                ****        ****       
+993       ****                                      ****                                   ****                ****        ****       
+994       ****                                      ****                                   ****                ****        ****       
+995       ****                                      ****                                   ****                ****        ****       
+996       ****                                      ****                                   ****                ****        ****       
+997       ****                                      ****                                   ****                ****        ****       
+998       "Rural/City 11"                           AREA_TRANSITION_TCR10_11               ls_tcr10_11         tcr10       ****       
+999       "Rural/City 12"                           AREA_TRANSITION_TCR10_12               ls_tcr10_12         tcr10       ****       
+1000      "Rural/City 01"                           AREA_TRANSITION_TCR10_01               ls_tcr10_01         tcr10       ****       
+1001      "Rural/City 02"                           AREA_TRANSITION_TCR10_02               ls_tcr10_02         tcr10       ****       
+1002      "Rural/City 03"                           AREA_TRANSITION_TCR10_03               ls_tcr10_03         tcr10       ****       
+1003      "Rural/City 04"                           AREA_TRANSITION_TCR10_04               ls_tcr10_04         tcr10       ****       
+1004      "Rural/City 05"                           AREA_TRANSITION_TCR10_05               ls_tcr10_05         tcr10       ****       
+1005      "Rural/City 06"                           AREA_TRANSITION_TCR10_06               ls_tcr10_06         tcr10       ****       
+1006      "Rural/City 07"                           AREA_TRANSITION_TCR10_07               ls_tcr10_07         tcr10       ****       
+1007      "Rural/City 08"                           AREA_TRANSITION_TCR10_08               ls_tcr10_08         tcr10       ****       
+1008      "Rural/City 09"                           AREA_TRANSITION_TCR10_09               ls_tcr10_09         tcr10       ****       
+1009      "Rural/City 10"                           AREA_TRANSITION_TCR10_10               ls_tcr10_10         tcr10       ****       
+1010      "Wild Woods 01"                           AREA_TRANSITION_TTW01_01               ls_ttw01_01         ttw01       ****       
+1011      "Wild Woods 02"                           AREA_TRANSITION_TTW01_02               ls_ttw01_02         ttw01       ****       
+1012      "Wild Woods 03"                           AREA_TRANSITION_TTW01_03               ls_ttw01_03         ttw01       ****       
+1013      "Wild Woods 04"                           AREA_TRANSITION_TTW01_04               ls_ttw01_04         ttw01       ****       
+1014      "Wild Woods 05"                           AREA_TRANSITION_TTW01_05               ls_ttw01_05         ttw01       ****       
+1015      "Wild Woods 06"                           AREA_TRANSITION_TTW01_06               ls_ttw01_06         ttw01       ****       
+1016      "Wild Woods 07"                           AREA_TRANSITION_TTW01_07               ls_ttw01_07         ttw01       ****       
+1017      "Wild Woods 08"                           AREA_TRANSITION_TTW01_08               ls_ttw01_03         ttw01       ****       
+1018      "Wild Woods 09"                           AREA_TRANSITION_TTW01_09               ls_ttw01_04         ttw01       ****       
+1019      "Gothic Estates 01"                       AREA_TRANSITION_GG_01                  ls_gg_01            gg          ****       
+1020      "Gothic Estates 02"                       AREA_TRANSITION_GG_02                  ls_gg_02            gg          ****       
+1021      "Gothic Estates 03"                       AREA_TRANSITION_GG_03                  ls_gg_03            gg          ****       
+1022      "Gothic Estates 04"                       AREA_TRANSITION_GG_04                  ls_gg_04            gg          ****       
+1023      "Gothic Estates 05"                       AREA_TRANSITION_GG_05                  ls_gg_05            gg          ****       
+1024      "Gothic Estates 06"                       AREA_TRANSITION_GG_06                  ls_gg_06            gg          ****       
+1025      "Gothic Estates 07"                       AREA_TRANSITION_GG_07                  ls_gg_07            gg          ****       
+1026      Dungeon09                                 AREA_TRANSITION_DUNGEON_09             cc_ls01             TDE01       *****      
+1027      Dungeon10                                 AREA_TRANSITION_DUNGEON_10             cc_ls02             TDE01       *****      
+1028      Dungeon11                                 AREA_TRANSITION_DUNGEON_11             cc_ls03             TDE01       *****      
+1029      Dungeon12                                 AREA_TRANSITION_DUNGEON_12             cc_ls04             TDE01       *****      
+1030      Dungeon13                                 AREA_TRANSITION_DUNGEON_13             cc_ls05             TDE01       *****      
+1031      Dungeon14                                 AREA_TRANSITION_DUNGEON_14             cc_ls06             TDE01       *****      
+1032      Dungeon15                                 AREA_TRANSITION_DUNGEON_15             cc_ls07             TDE01       *****      
+1033      Dungeon16                                 AREA_TRANSITION_DUNGEON_16             cc_ls08             TDE01       *****      
+1034      Dungeon17                                 AREA_TRANSITION_DUNGEON_17             cc_ls09             TDE01       *****      
+1035      Dungeon18                                 AREA_TRANSITION_DUNGEON_18             cc_ls10             TDE01       *****      
+1036      Dungeon19                                 AREA_TRANSITION_DUNGEON_19             cc_ls11             TDE01       *****      
+1037      Dungeon20                                 AREA_TRANSITION_DUNGEON_20             cc_ls12             TDE01       *****      
+1038      Storm01                                   AREA_TRANSITION_STORM_01               ls_phodstorm01      TTZ01       ****       
+1039      Storm02                                   AREA_TRANSITION_STORM_02               ls_phodstorm02      TTZ01       ****       
+1040      Sea01                                     AREA_TRANSITION_SEA_01                 ls_phodsea01        TTZ01       ****       
+1041      Rural06                                   AREA_TRANSITION_RURAL_06               LS_TTR_06           TTR01       ****       
+1042      Rural07                                   AREA_TRANSITION_RURAL_07               LS_TTR_07           TTR01       ****       
+1043      Rural08                                   AREA_TRANSITION_RURAL_08               LS_TTR_08           TTR01       ****       
+1044      Rural09                                   AREA_TRANSITION_RURAL_09               LS_TTR_09           TTR01       ****       
+1045      Rural10                                   AREA_TRANSITION_RURAL_10               LS_TTR_10           TTR01       ****       
+1046      Rural11                                   AREA_TRANSITION_RURAL_11               LS_TTR_11           TTR01       ****       
+1047      Rural12                                   AREA_TRANSITION_RURAL_12               LS_TTR_12           TTR01       ****       
+1048      Rural13                                   AREA_TRANSITION_RURAL_13               LS_TTR_13           TTR01       ****       
+1049      ALIEN_01                                  AREA_TRANSITION_ALIEN_01               ls_alien01          TIB01       ****       

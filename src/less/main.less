@@ -1,0 +1,249 @@
+/* Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+@import "base";
+@import "nav";
+
+/* --------------------------------------------------------------------------- */
+
+.dropzone {
+    border: 3px dashed @lightAccent;
+    box-shadow: @boxShadow;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    display: inline-block;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    p {
+        color: @lightAccent;
+    }
+}
+
+#portrait-upload-dropzone {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#main-hero {
+    background-image: url("/images/aribeth-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 6rem 3rem;
+    padding-top: 9rem;
+
+    flex-direction: unset;
+
+    .hero-body {
+        padding: 0;
+    }
+}
+
+#hero-text {
+    max-width: 40rem;
+}
+
+#hero-titles {
+    border-bottom: 3px solid white;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+
+    .title {
+        font-family: "Neverwinter";
+        font-size: 8rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+#hero-dropzone-wrapper {
+    #hero-how-question {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    #hero-howto {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        padding-left: 3rem;
+
+        ol {
+            li {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+#main-page-container {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+
+    h1 {
+        color: @lightAccent;
+        font-size: 3rem;
+    }
+}
+
+.checkbox-text {
+    margin-left: 0.5rem;
+}
+
+.checkbox {
+    &:hover {
+        color: @lightAccent;
+    }
+}
+
+.character-modal-subheader {
+    margin-bottom: 1rem;
+}
+
+.character-modal-columns {
+    margin-left: 0.5rem;
+}
+
+.modal-select-label {
+    margin-right: 0.75rem;
+}
+
+select {
+    &.character-modal-select {
+        background-color: transparent;
+        color: @lightAccent;
+        border-color: @lightAccent;
+
+        &:hover {
+            border-color: @lightAccent;
+        }
+
+        &:focus {
+            border-color: @lightAccent;
+            box-shadow: none;
+        }
+    }
+}
+
+.select {
+    &.character-modal-select {
+        &:not(.is-multiple) {
+            &:not(.is-loading) {
+                &::after {
+                    border-color: @lightAccent;
+                }
+            }
+        }
+    }
+}
+
+#modal-step-1 {
+    p {
+        text-align: center;
+    }
+}
+
+.fa-upload {
+    margin-right: 0.5em;
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width:1023px) {
+    #main-hero {
+        background-position-x: left 15%;
+    }
+
+    .char-class-spacer {
+        display: none;
+    }
+
+    .char-class {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .character-upload-modal {
+        max-width: calc(100% - 2rem);
+        max-height: calc(100vh - 2rem);
+        overflow-y: scroll;
+
+        .modal-select-container {
+            .level-item {
+                justify-content: flex-start;
+            }
+        }
+
+        .modal-step-buttons {
+            &.level {
+                display: flex;
+
+                .level-left {
+                    display: flex;
+
+                    .level-item {
+                        justify-content: flex-start;
+                    }
+                }
+
+                .level-right {
+                    display: flex;
+                    margin-top: 0;
+
+                    .level-item {
+                        justify-content: flex-end;
+                    }
+                }
+            }
+        }
+    }
+
+    #main-hero {
+        .hero-body {
+            flex-shrink: 1;
+
+            .title {
+                font-size: 3.75rem;
+            }
+
+            .subtitle {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    #main-page-container {
+        .tags {
+            justify-content: flex-end;
+
+            .tag {
+                margin-right: 0;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}

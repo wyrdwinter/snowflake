@@ -1,0 +1,27 @@
+{{> start-faq }}
+  {{> nav }}
+  <div id="faq-container" class="container">
+    <h1>Frequently Asked Questions</h1>
+    <h2>1. Why did you make this?</h2>
+    <p>I wasn't satisfied with existing tools and wanted to share characters more easily.</p>
+    <h2>2. What stack did you use for this?</h2>
+    <p>Most of the application is written in <a href="https://nim-lang.org/">Nim</a> and leverages Niv's excellent <a href="https://github.com/niv/neverwinter.nim">Neverwinter</a> library.</p>
+    <p>The web stack consists of <a href="https://github.com/dom96/jester">Jester</a>, <a href="https://redis.io/">Redis</a>, <a href="https://mustache.github.io/">Mustache</a>, <a href="https://reactjs.org/">React</a>, <a href="https://lesscss.org/">Less</a>, and <a href="https://bulma.io/">Bulma</a>.</p>
+    <h2>3. Can I hack on this?</h2>
+    <p>Yes. The project is located <a href="https://github.com/wyrdwinter/snowflake">here</a>.</p>
+    <h2>4. There's a bug.</h2>
+    <p>Cool, report it <a href="https://github.com/wyrdwinter/snowflake/issues">here</a>.</p>
+    <h2>5. Do you intend to support server X?</h2>
+    <p>Maybe. That depends on others' contributions. I don't play every major server, nor do I care about them. Since most servers add to the basic roster of classes, feats, and so forth, supporting any given server may require extending this application.</p>
+    <p>If you're interested in helping with that, you can submit pull requests.</p>
+    <h2>6. I don't want to share my characters with the public, just with specific people. Can I do that?</h2>
+    <p>At the moment, the best way to do this is simply to flag any character you upload as <strong>unlisted</strong>. Share the link only with those you trust.</p>
+    <p>You may also specify an expiration date for the character, when it will be deleted completely from the database.</p>
+    <h2>7. I don't want my elite powerbuilds in your database because I don't trust you. Is there a solution for me?</h2>
+    <p>Snowflake is <a href="https://en.wikipedia.org/wiki/Free_software">free software</a>, and it is your right to <a href="https://github.com/wyrdwinter/snowflake#self-hosting">self host</a>. You're welcome.</p>
+    <h2>8. Can I integrate this with my site/server/webapp/whatever?</h2>
+    <p>If and only if you're willing to comply with the terms of the <a href="https://github.com/wyrdwinter/snowflake/blob/master/LICENSE">license.</a></p>
+    <p>I chose the AGPL for a reason: the NWN community is often parasitical. If you intend to leverage my work, you'll need to publish the source code of any modifications or derivative works, whether distributed as binaries or via an internet service, under the aforementioned terms.</p>
+  </div>
+  {{> footer }}
+{{> end }}

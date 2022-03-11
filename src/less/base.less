@@ -1,0 +1,162 @@
+/* Copyright (C) 2022 Wyrd (https://github.com/wyrdwinter)
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+@import "colors";
+@import url("/deps/bulma/bulma.min.css");
+@import url("/deps/bulma/responsive-tables.min.css");
+
+/* --------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/deps/fonts/SourceSansPro-Regular.woff2");
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/deps/fonts/SourceSansPro-Bold.woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/deps/fonts/SourceSansPro-Italic.woff2");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/deps/fonts/SourceSansPro-BoldItalic.woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+// Firefox seems to choke on these Neverwinter fonts in the console but
+// nevertheless renders them fine.
+@font-face {
+    font-family: "Neverwinter";
+    src: url("/deps/fonts/Neverwinter.otf");
+}
+@font-face {
+    font-family: "Neverwinter";
+    src: url("/deps/fonts/Neverwinter-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Neverwinter";
+    src: url("/deps/fonts/Neverwinter-Italic.otf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Neverwinter";
+    src: url("/deps/fonts/Neverwinter-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------------------- */
+
+html {
+    background-color: @background;
+    overflow-y: auto;
+}
+
+body {
+    font-family: "Source Sans Pro";
+    color: @darkForeground;
+}
+
+strong {
+    color: @foreground;
+}
+
+hr {
+    background-color: @lightAccent;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.card {
+    background-color: @background;
+    box-shadow: @boxShadow;
+
+    color: @darkForeground;
+
+    margin: 0.5rem;
+    flex-grow: 1;
+}
+
+.card-header {
+    background-color: @darkAccent;
+    box-shadow: @headerBoxShadow;
+}
+
+.card-header-title {
+    color: @background;
+}
+
+.card-content {
+    ul {
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    table {
+        ul {
+            padding: 0;
+        }
+    }
+}
+
+.table {
+    background-color: @background;
+    color: @darkForeground;
+
+    td, th {
+        border-color: @offBackground;
+    }
+
+    thead {
+        td, th {
+            color: @foreground;
+        }
+    }
+}
+
+.footer {
+    font-size: 1.2em;
+    padding-top: 6rem;
+    background-color: black;
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+    .b-table {
+        .table-wrapper {
+            &.has-mobile-cards {
+                tr {
+                    box-shadow: @boxShadow;
+
+                    &:not(.detail) {
+                        &:not(.is-empty) {
+                            &:not(.table-footer) {
+                                td {
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
