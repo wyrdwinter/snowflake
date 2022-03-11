@@ -19,14 +19,10 @@
 
 $script = <<-'SCRIPT'
 
-dnf -y install git
 dnf -y install gcc-toolset-11
 dnf -y install nginx
 dnf -y module install nodejs:16
 dnf -y module install redis:6
-
-cd /home/vagrant
-git clone https://github.com/wyrdwinter/snowflake
 
 cp /home/vagrant/snowflake/src/config/nginx.conf /etc/nginx/nginx.conf
 setsebool -P httpd_can_network_connect on
@@ -67,6 +63,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
-
+  config.vm.synced_folder "./", "/home/vagrant/snowflake"
   config.vm.provision "shell", inline: $script
 end
