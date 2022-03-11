@@ -48,7 +48,7 @@ type
 # ----------------------------------------------------------------------------- #
 
 const
-  JesterHost: string = "0.0.0.0"
+  JesterHost: string = "localhost"
   JesterPort: int = 5000
   RedisHost: string = "localhost"
   RedisPort: int = 6379
