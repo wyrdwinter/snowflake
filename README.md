@@ -2,7 +2,7 @@
 
 Pastebin, but for Neverwinter Nights characters.
 
-![Banner Image](../blob/master/src/static/images/opengraph-logo.jpg)
+![Banner Image](../master/src/static/images/opengraph-logo.jpg)
 
 ## Contents
 
