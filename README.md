@@ -5,9 +5,13 @@ Pastebin, but for Neverwinter Nights characters.
 ## Contents
 
 [Why?](#why)
+
 [Self-Hosting](#self-hosting)
+
 [Hacking](#hacking)
+
 [License](#license)
+
 [Contributions](#contributions)
 
 ## Why?
