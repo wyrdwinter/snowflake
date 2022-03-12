@@ -49,7 +49,7 @@ application on any of the major Linux distributions.
 
 ## Hacking
 
-You'll probably want to be familiar with [Nim](https://nim-lang.org/), [https://reactjs.org/](React), and various foundational
+You'll probably want to be familiar with [Nim](https://nim-lang.org/), [React](https://reactjs.org/), and various foundational
 web technologies.
 
 You'll also need [https://www.vagrantup.com/](Vagrant), which instantiates a
