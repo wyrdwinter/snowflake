@@ -52,7 +52,7 @@ application on any of the major Linux distributions.
 You'll probably want to be familiar with [Nim](https://nim-lang.org/), [React](https://reactjs.org/), and various foundational
 web technologies.
 
-You'll also need [https://www.vagrantup.com/](Vagrant), which instantiates a
+You'll also need [Vagrant](https://www.vagrantup.com/), which instantiates a
 virtual machine and automates the setup for requisite services.
 
 The easiest way to get started is by cloning the repository and spooling up 
