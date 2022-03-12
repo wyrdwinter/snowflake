@@ -2,6 +2,8 @@
 
 Pastebin, but for Neverwinter Nights characters.
 
+![Banner Image](../blob/master/src/static/images/opengraph-logo.jpg)
+
 ## Contents
 
 [Why?](#why)
@@ -109,6 +111,9 @@ normal recompile and page refresh.
 ## License
 
 Snowflake is licensed under the AGPLv3; see [LICENSE](https://github.com/wyrdwinter/snowflake/blob/master/LICENSE) for details.
+
+Images are used under non-profit fair use; they, as well as the contents of
+.2da and .tlk files, are copyright their respective creators.
 
 ## Contributions
 
